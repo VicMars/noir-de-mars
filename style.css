@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #000 !important;
 }
 
 
@@ -16,10 +16,34 @@ h1 {
   margin: 50px;
 }
 
+
+.main-content {
+  display: flex;
+  width:900px;
+  height: 900px;
+  justify-content: space-evenly;
+}
+
 .content {
   width: 500px;
   height: 500px;
   background-color: white;
 }
 
+.menu-right {
+  width: 100px;
+  height: 100vh;
+   h1 {
+    transform: rotate(-90deg);
+  }
+}
 
+.menu-top {
+  width: 100px;
+  height: 100vh;
+}
+
+.menu-bottom {
+  width: 100%;
+  text-align: right;
+}
