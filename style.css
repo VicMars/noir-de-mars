@@ -7,6 +7,12 @@ body {
 a {
   color: white;
   font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  border-bottom: 5px;
 }
 
 .main-container {
@@ -23,12 +29,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items:center;
-  margin: 50px;
 }
 
 .content {
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 500px;
   background-color: white;
 }
 
@@ -42,6 +47,7 @@ a {
   height: 100vh;
   line-height: 100vh;
   white-space: nowrap;
+  text-align:center;
 }
 
 
