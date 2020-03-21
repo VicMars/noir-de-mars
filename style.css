@@ -24,6 +24,7 @@ a {
 .main-content {
   display: flex;
   justify-content: space-between;
+  align-items:center;
 }
 
 .content {
@@ -33,7 +34,7 @@ a {
 }
 
 #menu-right {
-  width: 100px;
+  width: 10vw;
   height: 100vh;
 }
 
@@ -45,13 +46,18 @@ a {
 }
 
 #menu-top {
-  width: 100px;
+  width: 10vw;
   height: 100vh;
+  position:;
 }
 
 #menu-bottom {
   width: 100%;
   text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 25px 0;
 }
 
 #menu-bottom ul li {
