@@ -34,10 +34,21 @@ a:hover {
 }
 
 .content {
-  width: 700px;
+  width: 900px;
   height: 500px;
   background-color: white;
 }
+
+.title-left {
+  align-self: flex-start;
+  margin-right: -50px;
+}
+
+.title-right {
+  align-self: flex-end;
+  margin-left: -50px;
+}
+
 
 #menu-right {
   width: 10vw;
