@@ -6,9 +6,14 @@ body {
 h1 {
   font-family: "Sen";
   color: white;
-  font-size: 1.2 em;
+  font-size: 1.2 rem;
   font-weight: normal;
 }
+
+a {
+  color: white;
+}
+
 
 .main-container {
   height: 100vh;
@@ -22,8 +27,8 @@ h1 {
 }
 
 .content {
-  width: 900px;
-  height: 900px;
+  width: 600px;
+  height: 400px;
   background-color: white;
 }
 
@@ -33,8 +38,11 @@ h1 {
 }
 
 #menu-right h1 {
-    transform: rotate(-90deg);
-  }
+  transform: rotate(-90deg);
+  height: 100vh;
+  line-height: 100vh;
+  white-space: nowrap;
+}
 
 #menu-top {
   width: 100px;
@@ -44,4 +52,10 @@ h1 {
 #menu-bottom {
   width: 100%;
   text-align: right;
+}
+
+#menu-bottom ul li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
 }
