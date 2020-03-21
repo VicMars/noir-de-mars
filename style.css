@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  font-size: 16px;
+}
 
 .main-container {
   width: 100vw;
@@ -36,10 +40,6 @@ body {
   white-space: nowrap;
 }
 
-#menu-right a {
-  font-size: 26px;
-}
-
 
 #menu-top {
   width: 10vw;
@@ -59,5 +59,4 @@ body {
   list-style: none;
   padding: 10px;
   color: white;
-  font-size: 16px;
 }
