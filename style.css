@@ -45,11 +45,13 @@ a:hover {
 .title-left {
   align-self: flex-start;
   margin-right: -150px;
+  z-index:1;
 }
 
 .title-right {
   align-self: flex-end;
   margin-left: -150px;
+  z-index:1;
 }
 
 
