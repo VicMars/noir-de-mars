@@ -36,20 +36,20 @@ a:hover {
 .content {
   width: 900px;
   height: 500px;
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items:center;
+  color: white;
 }
 
 .title-left {
   align-self: flex-start;
-  margin-right: -50px;
+  margin-right: -150px;
 }
 
 .title-right {
   align-self: flex-end;
-  margin-left: -50px;
+  margin-left: -150px;
 }
 
 
