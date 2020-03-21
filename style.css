@@ -1,23 +1,8 @@
 body {
   background-color: #000 !important;
-}
-
-h1, a {
   font-family: "Sen";
   color: white;
 }
-
-h1 {
-  font-size: 22px;
-  font-weight: normal;
-}
-
-
-a {
-  font-size: 16px;
-  font-weight: normal;
-}
-
 
 
 .main-container {
@@ -51,6 +36,11 @@ a {
   white-space: nowrap;
 }
 
+#menu-right a {
+  font-size: 26px;
+}
+
+
 #menu-top {
   width: 10vw;
   height: 100vh;
@@ -62,7 +52,6 @@ a {
   position: absolute;
   bottom: 0;
   right: 50px;
-  margin: 25px 0;
 }
 
 #menu-bottom ul li {
@@ -70,4 +59,5 @@ a {
   list-style: none;
   padding: 10px;
   color: white;
+  font-size: 16px;
 }
