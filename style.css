@@ -2,22 +2,27 @@ body {
   background-color: #000 !important;
 }
 
-
-h1 {
+h1, a {
   font-family: "Sen";
   color: white;
-  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 22px;
   font-weight: normal;
 }
 
+
 a {
-  color: white;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 
+
 .main-container {
+  width: 100vw;
   height: 100vh;
-  margin: 50px;
 }
 
 
@@ -54,9 +59,9 @@ a {
 #menu-bottom {
   width: 100%;
   text-align: right;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  right: 25px;
+  right: 50px;
   margin: 25px 0;
 }
 
