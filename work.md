@@ -11,7 +11,7 @@
       </div>
 
       <div id="menu-top">
-        <h1><a href="/about">Work</a></h1>
+        <h1><a href="/about.md">Work</a></h1>
       </div>
 
     </div>
