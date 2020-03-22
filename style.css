@@ -29,10 +29,12 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items:center;
+  padding: 50px;
+  height: 100vh;
 }
 
 .content {
-  width: 700px;
+  width: 70vw;
   height: 500px;
   display: flex;
   justify-content: space-between;
@@ -58,7 +60,7 @@ a:hover {
   height: 100vh;
 }
 
-#menu-right a {
+#menu-right h2 {
   transform: rotate(-90deg);
   height: 100vh;
   line-height: 100vh;
@@ -70,6 +72,7 @@ a:hover {
 #menu-top {
   width: 10vw;
   height: 100vh;
+  text-align:right;
 }
 
 #menu-bottom {
