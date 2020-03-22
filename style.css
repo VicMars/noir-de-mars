@@ -59,7 +59,7 @@ a:hover {
   height: 100vh;
 }
 
-#menu-right h1 {
+#menu-right a {
   transform: rotate(-90deg);
   height: 100vh;
   line-height: 100vh;
