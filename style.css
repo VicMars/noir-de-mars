@@ -11,8 +11,10 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
-  border-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom:5px;
 }
 
 .main-container {
@@ -73,6 +75,7 @@ a:hover {
   width: 10vw;
   height: 100vh;
   text-align:right;
+  padding-top: 25px;
 }
 
 #menu-bottom {
@@ -88,4 +91,10 @@ a:hover {
   list-style: none;
   padding: 10px;
   color: white;
+}
+
+#menu-top .active, #menu-right .active {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom:5px;
 }
