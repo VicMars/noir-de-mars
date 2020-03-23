@@ -44,6 +44,12 @@ a:hover {
   color: white;
 }
 
+.content-work {
+  display: flex;
+  overflow-x: auto;
+}
+
+
 .title-left {
   align-self: flex-start;
   margin-right: -150px;
@@ -62,7 +68,7 @@ a:hover {
   height: 100vh;
 }
 
-#menu-right h2 {
+#menu-right h2, #menu-top .active {
   transform: rotate(-90deg);
   height: 100vh;
   line-height: 100vh;
@@ -71,7 +77,7 @@ a:hover {
 }
 
 
-#menu-top {
+#menu-top, #menu-top .active {
   width: 10vw;
   height: 100vh;
   text-align:right;
