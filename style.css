@@ -44,11 +44,6 @@ a:hover {
   color: white;
 }
 
-.content-work {
-  display: flex;
-  overflow-x: auto;
-}
-
 
 .title-left {
   align-self: flex-start;
@@ -68,7 +63,7 @@ a:hover {
   height: 100vh;
 }
 
-#menu-right h2, #menu-top .active {
+#menu-right h2, #menu-right .active {
   transform: rotate(-90deg);
   height: 100vh;
   line-height: 100vh;
@@ -103,4 +98,20 @@ a:hover {
   color: white;
   border-bottom: 1px solid white;
   padding-bottom:5px;
+}
+
+
+/* Horizontal Scrolling Images */
+
+.content-work {
+  display: flex;
+  overflow-x: auto;
+}
+
+.content-work img {
+  margin-right: 15px;
+}
+
+.content-work::-webkit-scrollbar {
+  display: none;
 }
