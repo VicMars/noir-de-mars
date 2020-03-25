@@ -71,7 +71,7 @@ a:hover {
   text-align:center;
 }
 
-#menu-right active {
+#menu-right > .active > a {
       transform: rotate(-90deg);
       height: 100vh;
       line-height: 100vh;
