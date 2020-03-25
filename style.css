@@ -60,7 +60,7 @@ h2
   z-index:1;
 }
 
-.menu-top-right h1{
+#menu-top-right h1{
  align-self: flex-start;
  padding-top: 100px;
  text-align: center;
