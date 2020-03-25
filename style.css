@@ -8,6 +8,7 @@ a {
   color: white;
   font-size: 16px;
   text-decoration: none;
+  font-weight: 300;
 }
 
 a:hover {
@@ -16,6 +17,8 @@ a:hover {
   border-bottom: 1px solid white;
   padding-bottom:5px;
 }
+
+h2
 
 .main-container {
   width: 100vw;
@@ -59,6 +62,8 @@ a:hover {
 
 .menu-top-right {
  align-self: flex-start;
+ padding-top: 100px;
+ text-align: center;
 }
 
 #menu-right {
@@ -113,7 +118,8 @@ a:hover {
 }
 
 #menu-bottom li:last-child {
-  padding-left:50px;
+  margin-left:80px;
+  border: 1px solid #fff;
 }
 
 
