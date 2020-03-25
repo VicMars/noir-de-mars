@@ -63,12 +63,19 @@ a:hover {
   height: 100vh;
 }
 
-#menu-right h2, #menu-right active {
+#menu-right h2 {
   transform: rotate(-90deg);
   height: 100vh;
   line-height: 100vh;
   white-space: nowrap;
   text-align:center;
+    .active {
+      transform: rotate(-90deg);
+      height: 100vh;
+      line-height: 100vh;
+      white-space: nowrap;
+      text-align:center;
+    }
 }
 
 
