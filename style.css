@@ -144,6 +144,12 @@ h2
   font-size: 20px;
 }
 
+.content-about-first {
+  width:50vw;
+  display:flex;
+  justify-content:space-between;
+}
+
 .dot-icon i{
   font-size: 8px;
   padding-right: 6px;
