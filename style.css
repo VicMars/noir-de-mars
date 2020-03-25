@@ -135,7 +135,7 @@ h2
 }
 
 .content-about p{
-  max-width: 600px;
+  width: 600px;
   margin-right: 20px;
   font-size: 20px;
 }
