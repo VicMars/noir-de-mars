@@ -64,14 +64,13 @@ h2
  align-self: flex-start;
  padding-top: 100px;
  text-align: center;
-}
-
-#menu-top-right {
  animation-duration: 3s;
  animation-delay: 2s;
  font-size: 36px;
  font-family: "Playfair Display";
 }
+
+
 
 #menu-right {
   width: 10vw;
