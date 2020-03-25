@@ -77,13 +77,21 @@ a:hover {
       line-height: 100vh;
       white-space: nowrap;
       text-align:center;
+      border-bottom: 1px solid white;
+      padding-bottom:5px;
     }
 
-#menu-top, .active #menu-top {
+#menu-top {
   width: 10vw;
   height: 100vh;
   text-align:right;
   padding-top: 25px;
+}
+
+
+#menu-top h2 > .active {
+  border-bottom: 1px solid white;
+  padding-bottom:5px;
 }
 
 #menu-bottom {
@@ -101,11 +109,10 @@ a:hover {
   color: white;
 }
 
-#menu-top.active, #menu-right.active {
-  color: white;
-  border-bottom: 1px solid white;
-  padding-bottom:5px;
+#menu-bottom li:last-child {
+  padding-left:50px;
 }
+
 
 
 /* Horizontal Scrolling Images */
