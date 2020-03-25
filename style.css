@@ -131,15 +131,19 @@ h2
   display: flex;
   overflow-x: auto;
   color: white;
+  align-items:center;
 }
 
 .content-about p{
-  max-width: 400px;
+  max-width: 600px;
   margin-right: 20px;
 }
 
+.dot-icon {
+  font-size: 14px;
+}
 
-.content-work::-webkit-scrollbar {
+.content-about::-webkit-scrollbar {
     display: none;
 }
 
