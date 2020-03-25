@@ -57,6 +57,9 @@ a:hover {
   z-index:1;
 }
 
+.menu-top-right {
+ align-self: flex-start;
+}
 
 #menu-right {
   width: 10vw;
