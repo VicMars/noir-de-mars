@@ -130,8 +130,6 @@ h2
   height: 500px;
   display: flex;
   overflow-x: auto;
-  justify-content: space-between;
-  align-items:center;
   color: white;
 }
 
