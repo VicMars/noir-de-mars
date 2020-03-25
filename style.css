@@ -60,7 +60,7 @@ h2
   z-index:1;
 }
 
-.menu-top-right {
+.menu-top-right h1{
  align-self: flex-start;
  padding-top: 100px;
  text-align: center;
@@ -123,6 +123,16 @@ h2
 }
 
 
+/* About page */
+
+.content-about {
+  width: 50vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+}
 
 /* Horizontal Scrolling Images */
 
@@ -135,8 +145,6 @@ h2
   max-width: 360px;
   margin-right: 20px;
 }
-
-
 
 .content-work::-webkit-scrollbar {
   display: none;
