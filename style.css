@@ -122,9 +122,6 @@ a:hover {
 .content-about {
   width: 70vw;
   height: 70vh;
-  display: flex;
-  overflow-x: auto;
-  align-items:center;
 }
 
 .content-about p{
