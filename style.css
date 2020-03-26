@@ -144,8 +144,8 @@ a:hover {
 
 .content-about-first {
   align-items:center;
+  transition: opacity 1s;
   opacity: 1;
-  transition: opacity 1s ease-in-out;
 }
 
 .content-about-first i{
