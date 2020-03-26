@@ -70,17 +70,11 @@ a:hover {
   line-height: 70vh;
   white-space: nowrap;
   text-align:center;
+   .active {
+    border-bottom: 1px solid white;
+    padding-bottom:5px;
+   }
 }
-
-#menu-right h2 > .active {
-      transform: rotate(-90deg);
-      height: 70vh;
-      line-height: 70vh;
-      white-space: nowrap;
-      text-align:center;
-      border-bottom: 1px solid white;
-      padding-bottom:5px;
-    }
 
 
 #menu-bottom {
