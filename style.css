@@ -45,6 +45,7 @@ a:hover {
 .main-content {
   display: flex;
   align-items:center;
+  position:fixed;
   height: 70vh;
 }
 
@@ -84,7 +85,7 @@ a:hover {
 
 #menu-bottom {
   width: 100vw;
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   padding: 25px 50px;
