@@ -38,6 +38,22 @@ h2
   height: 100vh;
 }
 
+#menu-top {
+  width: 100vw;
+  height: 100vh;
+  text-align:right;
+  padding-top: 25px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+#menu-top h2 > .active {
+  border-bottom: 1px solid white;
+  padding-bottom:5px;
+}
+
+
 .content {
   width: 70vw;
   height: 500px;
@@ -95,18 +111,6 @@ h2
       padding-bottom:5px;
     }
 
-#menu-top {
-  width: 10vw;
-  height: 100vh;
-  text-align:right;
-  padding-top: 25px;
-}
-
-
-#menu-top h2 > .active {
-  border-bottom: 1px solid white;
-  padding-bottom:5px;
-}
 
 #menu-bottom {
   width: 100%;
