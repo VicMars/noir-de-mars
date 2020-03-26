@@ -135,23 +135,27 @@ a:hover {
   margin-right: 20px;
   font-size: 20px;
   word-wrap: break-word;
-
-  opacity: 0;
-  animation-name: rightFadeInOut;
+  transform : scale(0);
+  opacity: 1;
+  animation-name: FadeInScale;
   animation-delay: 1s;
-  animation-duration: 3s;
+  animation-duration: 6s;
 }
 
-@keyframes rightFadeInOut {
+@keyframes FadeInScale{
   0% {
-    position: absolute;
-    right: -3rem;
+    transform : scale(0);
     opacity: 0;
   }
 
+  75% {
+    transform : scale(0.5);
+    opacity: 0.5;
+  }
+
   100% {
+    transform : scale(1);
     opacity: 1;
-    right: 10rem;
   }
 }
 
