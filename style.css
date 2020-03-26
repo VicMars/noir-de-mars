@@ -33,7 +33,7 @@ a:hover {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 25px 50px;
+  padding: 0 50px;
 }
 
 
@@ -45,8 +45,8 @@ a:hover {
 .main-content {
   display: flex;
   align-items:center;
-  position:fixed;
-  height: 70vh;
+  position:relative;
+  height: 80vh;
 }
 
 .content {
@@ -88,7 +88,7 @@ a:hover {
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  padding: 25px 50px;
+  padding: 0 50px;
   position: fixed;
   bottom:0;
 }
@@ -173,7 +173,7 @@ a:hover {
 }
 
 .content-work img {
-  max-width: 360px;
+  max-height: 70vh;
   margin-right: 20px;
 }
 
