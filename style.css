@@ -144,7 +144,7 @@ a:hover {
 
 @keyframes FadeInScale{
   0% {
-    transform : scale(0);
+    transform : translateY(0), translateX(0), scale(0);
     opacity: 0;
   }
 
@@ -154,7 +154,7 @@ a:hover {
   }
 
   100% {
-    transform : scale(1);
+    transform : translateY(1), translateX(1),scale(1);
     opacity: 1;
   }
 }
