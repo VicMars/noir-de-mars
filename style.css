@@ -40,11 +40,10 @@ h2
 
 #menu-top {
   width: 100vw;
-  height: 100vh;
-  text-align:right;
-  padding-top: 25px;
+  height: 80px;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
+  padding: 25px;
 }
 
 
