@@ -139,19 +139,19 @@ a:hover {
   opacity: 0;
   animation-name: rightFadeInOut;
   animation-delay: 1s;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 @keyframes rightFadeInOut {
   0% {
     position: absolute;
-    top: -3rem;
+    right: -3rem;
     opacity: 0;
   }
 
   100% {
     opacity: 1;
-    top: 10rem;
+    right: 10rem;
   }
 }
 
