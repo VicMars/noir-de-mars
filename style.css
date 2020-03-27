@@ -148,6 +148,7 @@ a:hover {
 .content-about-text-slide {
   font-size: 24px;
   font-weight: 300;
+  animation: bottomToTop ;
 
   overflow: hidden;
   font-family: "Playfair Display";
