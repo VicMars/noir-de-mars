@@ -143,18 +143,15 @@ a:hover {
   animation-duration: 4s;
 }*/
 
-.content-about-text h2 {
-  display:inline;
-}
-
 .content-about-text-slide {
-  animation: bottomToTop 12.5s;
+  animation: bottomToTop 12.5s ;
   -ms-animation: bottomToTop 12.5s ;
-  -webkit-animation: bottomToTop 12.5s  ;
-  color: #00abe9;
+  -webkit-animation: bottomToTop 12.5s ;
   opacity: 0;
   overflow: hidden;
   position: absolute;
+  font-family: "Playfair Display";
+  font-style:italic;
 }
 
 @-moz-keyframes bottomToTop{
@@ -162,8 +159,8 @@ a:hover {
   5% { opacity: 0; -moz-transform: translateY(50px); }
   10% { opacity: 1; -moz-transform: translateY(0px); }
   25% { opacity: 1; -moz-transform: translateY(0px); }
-  30% { opacity: 1; -moz-transform: translateY(-50px); }
-  80% { opacity: 1; }
+  30% { opacity: 0; -moz-transform: translateY(-50px); }
+  80% { opacity: 0; }
   100% { opacity: 1; }
 }
 @-webkit-keyframes bottomToTop{
@@ -171,8 +168,8 @@ a:hover {
   5% { opacity: 0; -webkit-transform: translateY(50px); }
   10% { opacity: 1; -webkit-transform: translateY(0px); }
   25% { opacity: 1; -webkit-transform: translateY(0px); }
-  30% { opacity: 1; -webkit-transform: translateY(-50px); }
-  80% { opacity: 1; }
+  30% { opacity: 0; -webkit-transform: translateY(-50px); }
+  80% { opacity: 0; }
   100% { opacity: 1; }
 }
 @-ms-keyframes bottomToTop{
@@ -180,11 +177,16 @@ a:hover {
   5% { opacity: 0; -ms-transform: translateY(50px); }
   10% { opacity: 1; -ms-transform: translateY(0px); }
   25% { opacity: 1; -ms-transform: translateY(0px); }
-  30% { opacity: 1; -ms-transform: translateY(-50px); }
-  80% { opacity: 1; }
+  30% { opacity: 0; -ms-transform: translateY(-50px); }
+  80% { opacity: 0; }
   100% { opacity: 1; }
 }
 
+
+.content-about-first i{
+  font-size: 8px;
+  padding-right: 6px;
+}
 
 .content-about::-webkit-scrollbar {
     display: none;
