@@ -167,7 +167,7 @@ a:hover {
 }
 
 .line {
-  animation-delay: 2s, 12.5s;
+  animation-delay: 250ms, 12.5s;
 }
 
 
