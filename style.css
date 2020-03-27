@@ -153,9 +153,9 @@ a:hover {
 }
 
 
-.line1 { animation: fadeIn 1s ease-in 0s forwards; }
-.line2 { animation: fadeIn 1s ease-in 1s forwards; }
-.line3 { animation: fadeIn 1s ease-in 2s forwards; }
+.line1 { transition-delay: fadeIn 250ms; }
+.line2 { transition-delay: fadeIn 500ms; }
+.line3 { transition-delay: fadeIn 750ms; }
 
 @keyframes fadeIn {
   from {
