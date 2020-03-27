@@ -166,7 +166,7 @@ a:hover {
   font-size: 24px;
   font-weight: 300;
   animation: bottomToTop;
-   animation-duration: 12s;
+  animation-duration: 12s;
   font-family: "Playfair Display";
   font-style:italic;
 }
