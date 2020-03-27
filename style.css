@@ -148,40 +148,40 @@ a:hover {
 }
 
 .content-about-text-slide {
-  animation: topToBottom 12.5s linear infinite 0s;
-  -ms-animation: topToBottom 12.5s linear infinite 0s;
-  -webkit-animation: topToBottom 12.5s linear infinite 0s;
+  animation: bottomToTop 12.5s linear;
+  -ms-animation: bottomToTop 12.5s linear ;
+  -webkit-animation: bottomToTop 12.5s linear ;
   color: #00abe9;
   opacity: 0;
   overflow: hidden;
   position: absolute;
 }
 
-@-moz-keyframes topToBottom{
+@-moz-keyframes bottomToTop{
   0% { opacity: 0; }
   5% { opacity: 0; -moz-transform: translateY(50px); }
   10% { opacity: 1; -moz-transform: translateY(0px); }
   25% { opacity: 1; -moz-transform: translateY(0px); }
-  30% { opacity: 0; -moz-transform: translateY(-50px); }
-  80% { opacity: 0; }
+  30% { opacity: 1; -moz-transform: translateY(-50px); }
+  80% { opacity: 1; }
   100% { opacity: 1; }
 }
-@-webkit-keyframes topToBottom{
+@-webkit-keyframes bottomToTop{
   0% { opacity: 0; }
   5% { opacity: 0; -webkit-transform: translateY(50px); }
   10% { opacity: 1; -webkit-transform: translateY(0px); }
   25% { opacity: 1; -webkit-transform: translateY(0px); }
-  30% { opacity: 0; -webkit-transform: translateY(-50px); }
-  80% { opacity: 0; }
+  30% { opacity: 1; -webkit-transform: translateY(-50px); }
+  80% { opacity: 1; }
   100% { opacity: 1; }
 }
-@-ms-keyframes topToBottom{
+@-ms-keyframes bottomToTop{
   0% { opacity: 0; }
   5% { opacity: 0; -ms-transform: translateY(50px); }
   10% { opacity: 1; -ms-transform: translateY(0px); }
   25% { opacity: 1; -ms-transform: translateY(0px); }
-  30% { opacity: 0; -ms-transform: translateY(-50px); }
-  80% { opacity: 0; }
+  30% { opacity: 1; -ms-transform: translateY(-50px); }
+  80% { opacity: 1; }
   100% { opacity: 1; }
 }
 
