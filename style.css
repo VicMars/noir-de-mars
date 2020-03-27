@@ -156,9 +156,11 @@ a:hover {
 @keyframes bottomToTop {
   from {
     opacity: 0;
+    top:-50px;
   }
   to {
     opacity:1;
+    top:0;
   }
 }
 
