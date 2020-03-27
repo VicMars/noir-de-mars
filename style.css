@@ -138,10 +138,11 @@ a:hover {
 }
 
 .content-about-first p {
-  animation-name: opening;
+  animation-name: opening 2s 1 ease forwards;
   animation-delay: 0.5s;
   animation-duration: 4s;
   opacity: 0;
+  transform: translateY(-50px);
 }
 
 @keyframes opening{
