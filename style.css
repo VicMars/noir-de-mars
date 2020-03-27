@@ -147,6 +147,11 @@ a:hover {
   display:inline;
 }
 
+.content-about-text-slide {
+  display:inline;
+  text-indent: 8px;
+}
+
 .content-about-text-slide span{
   animation: topToBottom 12.5s linear infinite 0s;
   -ms-animation: topToBottom 12.5s linear infinite 0s;
