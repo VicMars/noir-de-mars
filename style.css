@@ -148,9 +148,9 @@ a:hover {
 }
 
 .content-about-text-slide {
-  animation: bottomToTop 12.5s linear;
-  -ms-animation: bottomToTop 12.5s linear ;
-  -webkit-animation: bottomToTop 12.5s linear ;
+  animation: bottomToTop 12.5s;
+  -ms-animation: bottomToTop 12.5s ;
+  -webkit-animation: bottomToTop 12.5s  ;
   color: #00abe9;
   opacity: 0;
   overflow: hidden;
@@ -185,11 +185,6 @@ a:hover {
   100% { opacity: 1; }
 }
 
-
-.content-about-first i{
-  font-size: 8px;
-  padding-right: 6px;
-}
 
 .content-about::-webkit-scrollbar {
     display: none;
