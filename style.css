@@ -145,12 +145,9 @@ a:hover {
   animation-duration: 4s;
 }*/
 
-.content-about-text-slide {
+.content-about-text-slide  {
   font-size: 24px;
   font-weight: 300;
-  animation: bottomToTop ;
-
-  overflow: hidden;
   font-family: "Playfair Display";
   font-style:italic;
 }
@@ -168,14 +165,15 @@ a:hover {
 .line {
   font-size: 24px;
   font-weight: 300;
-  animation: bottomToTop 4s Os;
+  animation: bottomToTop;
+   animation-duration: 12s;
   font-family: "Playfair Display";
   font-style:italic;
 }
 
-.content-about-text-slide:nth-child(1)  { animation-delay: bottomToTop -1.9s; }
-.content-about-text-slide:nth-child(2)  { animation-delay: bottomToTop -2s }
-.content-about-text-slide:nth-child(3)  { animation-delay: bottomToTop -2.3s }
+.line:nth-child(1)  { animation-delay: bottomToTop 0.0s; }
+.line:nth-child(2)  { animation-delay: bottomToTop 0.5s; }
+.line:nth-child(3)  { animation-delay: bottomToTop 1.0s; }
 
 
 
