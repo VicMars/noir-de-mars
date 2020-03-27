@@ -167,9 +167,9 @@ a:hover {
 }
 
 
-.line1 { transition-delay: 50ms }
-.line2 { transition-delay: 100ms }
-.line3 { transition-delay: 150ms }
+.line1 { transition-delay: bottomToTop 50ms }
+.line2 { transition-delay: bottomToTop 100ms }
+.line3 { transition-delay: bottomToTop 150ms }
 
 
 
