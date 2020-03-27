@@ -143,12 +143,16 @@ a:hover {
   animation-duration: 4s;
 }*/
 
-.content-about-first span{
+content-about-text h2 {
+  display:inline;
+}
+
+.content-about-text span{
   font-weight: bold;
   color: #e74c3c;
   display: inline-block;
   padding-left: 10px;
-  animation: move 7s infinite;
+  animation: move 7s;
   animation-delay: 1.5s;
   top: 0;
   left: 0;
