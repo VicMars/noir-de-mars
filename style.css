@@ -161,12 +161,12 @@ a:hover {
   from {
     opacity: 0;
     width:50%;
-    top:-50px;
+    bottom:-50px;
   }
   to {
     opacity:1;
     width: 100%;
-    top:50px;
+    bottom:0;
   }
 }
 
