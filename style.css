@@ -144,11 +144,12 @@ a:hover {
 }*/
 
 .content-about-text-slide {
+  font-size: 24px;
+  font-weight: 300;
   animation: bottomToTop 12.5s ;
   -ms-animation: bottomToTop 12.5s ;
   -webkit-animation: bottomToTop 12.5s ;
   overflow: hidden;
-  position: absolute;
   font-family: "Playfair Display";
   font-style:italic;
 }
