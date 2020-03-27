@@ -147,7 +147,6 @@ a:hover {
   animation: bottomToTop 12.5s ;
   -ms-animation: bottomToTop 12.5s ;
   -webkit-animation: bottomToTop 12.5s ;
-  opacity: 0;
   overflow: hidden;
   position: absolute;
   font-family: "Playfair Display";
