@@ -166,7 +166,7 @@ a:hover {
   }
 }
 
-.line:nth-child(1) {
+.line {
   animation-delay: 2s, 12.5s;
 }
 
