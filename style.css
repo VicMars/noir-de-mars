@@ -160,7 +160,7 @@ a:hover {
 @keyframes bottomToTop {
   from {
     opacity: 0;
-    font-size:50%;
+    font-size:0%;
     bottom:-50px;
     left:0;
   }
