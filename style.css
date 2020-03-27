@@ -165,9 +165,9 @@ a:hover {
 }
 
 
-.line1 { animation-delay: bottomToTop 50ms }
-.line2 { animation-delay: bottomToTop 100ms }
-.line3 { animation-delay: bottomToTop 150ms }
+.line1 { animation: bottomToTop 50ms }
+.line2 { animation: bottomToTop 100ms }
+.line3 { animation: bottomToTop 150ms }
 
 
 
