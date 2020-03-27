@@ -173,9 +173,9 @@ a:hover {
   font-style:italic;
 }
 
-.line:nth-child(1)  { animation-delay: bottomToTop -1.9s; }
-.line:nth-child(2)  { animation-delay: bottomToTop -2s }
-.line:nth-child(3)  { animation-delay: bottomToTop -2.3s }
+.content-about-text-slide:nth-child(1)  { animation-delay: bottomToTop -1.9s; }
+.content-about-text-slide:nth-child(2)  { animation-delay: bottomToTop -2s }
+.content-about-text-slide:nth-child(3)  { animation-delay: bottomToTop -2.3s }
 
 
 
