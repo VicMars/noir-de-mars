@@ -141,8 +141,6 @@ a:hover {
   animation-name: opening;
   animation-delay: 0.5s;
   animation-duration: 4s;
-  opacity: 0;
-  transform: translateY(-50px);
 }
 
 @keyframes opening{
