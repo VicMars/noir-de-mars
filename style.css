@@ -85,7 +85,7 @@ a:hover {
 }
 
 
-.menu-top-right {
+#menu-top-right {
   display: block;
   position: fixed;
   visibility: hidden;
