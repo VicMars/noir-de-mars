@@ -42,8 +42,7 @@ a:hover {
 }
 
 
-#menu-top {
-   .active {
+#menu-top .active {
   border-bottom: 1px solid white;
   padding-bottom:5px;
 }
