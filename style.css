@@ -149,11 +149,12 @@ a:hover {
   animation-duration: 4s;
 }*/
 
-.content-about-text-slide  {
+.content-about-text-slide h2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Playfair Display";
   font-style: italic;
+  text-align: center;
 }
 
 
@@ -171,6 +172,7 @@ a:hover {
 .line {
   animation-name: bottomToTop;
   animation-duration: 12s;
+  transition-timing-function: linear;
 }
 
 .line:nth-child(1) { animation-delay: -0.8s; }
