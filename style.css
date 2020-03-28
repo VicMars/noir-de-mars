@@ -35,10 +35,10 @@ a:hover {
 
 #menu-top {
   width: 100vw;
-  height: 10vh;
+  height: 10%;
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 25px 50px 0 50px;
 }
 
 
@@ -62,7 +62,7 @@ a:hover {
   display: flex;
   align-items:center;
   position:relative;
-  height: 80vh;
+  height: 80%;
 }
 
 .content {
@@ -95,7 +95,7 @@ a:hover {
 
 #menu-bottom {
   width: 100vw;
-  height: 10vh;
+  height: 10%;
   padding: 0 50px;
 }
 
