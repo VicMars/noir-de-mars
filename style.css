@@ -42,18 +42,22 @@ a:hover {
   padding-bottom:5px;
 }
 
-#menu-toggle:checked ~ .menu__btn > span {
+#menu-toggle {
+  opacity:0;
+}
+
+#menu-toggle:checked .menu__btn > span {
   transform: rotate(45deg);
 }
-#menu-toggle:checked ~ .menu__btn > span::before {
+#menu-toggle:checked .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
-#menu-toggle:checked ~ .menu__btn > span::after {
+#menu-toggle:checked .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
-#menu-toggle:checked ~ .menu__box {
+#menu-toggle:checked .menu__box {
   visibility: visible;
   left: 0;
 }
