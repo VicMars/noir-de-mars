@@ -42,10 +42,21 @@ a:hover {
 }
 
 
-#menu-top h2 > .active {
+#menu-top {
+   .active {
   border-bottom: 1px solid white;
   padding-bottom:5px;
 }
+
+#menu-top ul {
+  list-style: none;
+  text-align: right;
+}
+
+#menu-top ul li {
+  padding-bottom: 20px;
+}
+
 
 
 .main-content {
