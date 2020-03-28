@@ -30,7 +30,6 @@ a:hover {
 }
 
 
-
 /* MENUS */
 
 #menu-top {
@@ -55,23 +54,6 @@ a:hover {
   padding-bottom: 20px;
 }
 
-
-
-.main-content {
-  display: flex;
-  align-items:center;
-  position:relative;
-  height: 80vh;
-}
-
-.content {
-  width: 70vw;
-  height: 500px;
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  color: white;
-}
 
 #menu-right {
   width: 10vw;
@@ -121,6 +103,32 @@ a:hover {
   padding: 10px 16px;
 }
 
+/* Content */
+
+.main-content {
+  display: flex;
+  align-items:center;
+  position:relative;
+  height: 80vh;
+}
+
+.content {
+  width: 70vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  color: white;
+}
+
+.content-surface-design {
+  display: flex;
+  align-items:center;
+}
+
+.content-text{
+  margin-right: -100px;
+}
 /* Home page */
 
 .title-left {
