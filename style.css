@@ -86,7 +86,7 @@ a:hover {
 }
 
 #menu-bottom ul{
-  width: 90vw;
+  width: 100vw;
   text-align:center;
   padding:0;
   margin-bottom:0;
@@ -97,6 +97,10 @@ a:hover {
   list-style: none;
   padding-right: 15px;
   color: white;
+}
+
+.contact-link {
+  z-index:1;
 }
 
 .contact-link a {
@@ -149,28 +153,24 @@ a:hover {
   font-size: 24px;
   font-weight: 300;
   font-family: "Playfair Display";
-  font-style:italic;
+  font-style: italic;
 }
 
 
 @keyframes bottomToTop {
   from {
     opacity: 0;
-    top:-50px;
+    margin-top:-50px;
   }
   to {
     opacity:1;
-    top:0;
+    margin-top:0;
   }
 }
 
 .line {
-  font-size: 24px;
-  font-weight: 300;
   animation-name: bottomToTop;
   animation-duration: 12s;
-  font-family: "Playfair Display";
-  font-style:italic;
 }
 
 .line:nth-child(1) { animation-delay: -0.8s; }
