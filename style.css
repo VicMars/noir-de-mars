@@ -34,9 +34,11 @@ a:hover {
 
 #menu-top {
   width: 100vw;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   padding: 25px 50px 0 50px;
+  z-index:1;
 }
 
 
@@ -122,13 +124,25 @@ a:hover {
 }
 
 .content-surface-design {
+  width: 70vw;
   display: flex;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+
 }
 
 .content-text{
+  width: 60%;
   margin-right: -100px;
+  z-index: 2;
 }
+
+.content-img {
+  width: 80%;
+  max-height: 70vh;
+}
+
 /* Home page */
 
 .title-left {
