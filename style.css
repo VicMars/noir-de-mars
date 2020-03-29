@@ -85,6 +85,13 @@ a:hover {
   color: white;
 }
 
+/* Title */
+
+.title-main {
+  font-family: Playfair Display;
+  font-style: italic;
+  font-size: 26px;
+}
 
 /* Content */
 
