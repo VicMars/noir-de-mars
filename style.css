@@ -139,8 +139,10 @@ a:hover {
 }
 
 .content-img {
-  width: 80%;
-  max-height: 70vh;
+  display: grid;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
 }
 
 /* Home page */
