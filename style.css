@@ -66,7 +66,9 @@ a:hover {
   width: 15vw;
   height: 100vh;
   display: flex;
-  align-content: space-between; ;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 50px;
 }
 
 #menu-right {
@@ -75,6 +77,19 @@ a:hover {
 
 #menu-left {
   text-align:right;
+}
+
+#menu-right-bottom {
+  width: 100vw;
+  height: 10vh;
+  margin: 25px 50px;
+}
+
+#menu-right-bottom ul li {
+  display: inline;
+  list-style: none;
+  padding-right: 15px;
+  color: white;
 }
 
 #menu-right-middle h2 {
