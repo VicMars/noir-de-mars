@@ -105,13 +105,16 @@ a:hover {
   padding: 0 50px;
 }
 
+#menu-bottom-left ul {
+  margin: 0;
+  padding: 0;
+}
+
 #menu-bottom-left ul li {
   display: inline;
   list-style: none;
   padding-right: 15px;
   color: white;
-  margin: 0;
-  padding: 0;
 }
 
 
