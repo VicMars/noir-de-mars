@@ -123,31 +123,6 @@ a:hover {
   color: white;
 }
 
-.content-surface-design {
-  width: 70vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-
-}
-
-.content-text{
-  width: 60%;
-  margin-right: -100px;
-  z-index: 2;
-}
-
-.content-img {
-  display: grid;
-  grid-template-columns: 300px 200px;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 25px;
-}
-
-.content-img img {
-  width: 100%;
-}
 
 /* Home page */
 
@@ -184,11 +159,6 @@ a:hover {
   align-items: center;
 }
 
-/*.content-about-first p {
-  animation-name: fadeInUp;
-  animation-delay: 0.5s;
-  animation-duration: 4s;
-}*/
 
 .content-about-text-slide h2 {
   font-size: 24px;
@@ -247,4 +217,28 @@ a:hover {
   display: none;
 }
 
+/* Vertical Scrolling Images */
+
+
+.content-surface-design {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content-img {
+  display: flex;
+  overflow-y: auto;
+}
+
+.content-img::-webkit-scrollbar {
+  display: none;
+}
+
+.content-img img {
+  max-width: 30%;
+}
 
