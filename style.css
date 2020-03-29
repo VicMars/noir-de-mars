@@ -86,6 +86,8 @@ a:hover {
 #menu-left ul li {
   list-style: none;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -95,8 +97,6 @@ a:hover {
   white-space: nowrap;
   text-align:center;
 }
-
-
 
 #menu-bottom {
   display: flex;
@@ -110,6 +110,8 @@ a:hover {
   list-style: none;
   padding-right: 15px;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 
