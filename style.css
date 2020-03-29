@@ -46,11 +46,13 @@ a:hover {
 }
 
 #menu-right {
-  text-align:left;
+  margin: 50px 0 50px 50px;
+
 }
 
 #menu-left {
   text-align:right;
+  margin: 50px 50px 50px 0;
 }
 
 #menu-left ul li {
@@ -72,7 +74,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  padding: 0 50px;
+  margin: 0 50px 50px 50px;
 }
 
 #menu-bottom-left ul {
