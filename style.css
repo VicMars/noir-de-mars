@@ -145,6 +145,10 @@ a:hover {
   grid-gap: 25px;
 }
 
+.content-img img {
+  width: 100%;
+}
+
 /* Home page */
 
 .title-left {
