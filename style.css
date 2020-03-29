@@ -33,46 +33,16 @@ a:hover {
   display: flex;
   height:90vh;
   justify-content: space-between;
-  margin: 25px 50px 0 50px;
 }
 
 
 /* MENUS */
 
-#menu-top {
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 50px 0 50px;
-  z-index:1;
-}
-
-#menu-top .active {
-  border-bottom: 1px solid white;
-  padding-bottom:5px;
-}
-
-#menu-top ul {
-  list-style: none;
-  text-align: right;
-}
-
-#menu-top ul li {
-  padding-bottom: 20px;
-}
-
-/*#menu-right {
-  width: 10vw;
-  height: 70vh;
-  margin-right: 80px;
-}*/
-
 #menu-right, #menu-left {
-  width: 15vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 50px;
 }
 
 #menu-right {
