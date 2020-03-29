@@ -31,7 +31,9 @@ a:hover {
 
 .main-container {
   display: flex;
+  height:90vh;
   justify-content: space-between;
+  margin: 25px 50px 0 50px;
 }
 
 
@@ -73,7 +75,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 25px 50px;
 }
 
 #menu-right {
@@ -87,7 +88,6 @@ a:hover {
 #menu-right-bottom {
   width: 100vw;
   height: 10vh;
-  margin: 25px 50px;
 }
 
 #menu-right-bottom ul li {
@@ -97,47 +97,40 @@ a:hover {
   color: white;
 }
 
-#menu-right-middle h2 {
+#menu-right-middle {
   transform: rotate(-90deg);
   height: 70vh;
   line-height: 70vh;
   white-space: nowrap;
   text-align:center;
-   .active {
-    border-bottom: 1px solid white;
-    padding-bottom:5px;
-   }
+}
+
+#menu-left-top ul li {
+  list-style: none;
+  color: white;
 }
 
 
-/*#menu-bottom {
+#menu-bottom {
+  display: flex;
+  justify-content: space-between;
   width: 100vw;
-  height: 10vh;
   padding: 0 50px;
 }
 
-#menu-bottom ul{
+#menu-bottom-right ul{
   width: 100vw;
-  text-align:center;
   padding:0;
   margin-bottom:0;
 }
 
-#menu-bottom ul li {
+#menu-bottom-right ul li {
   display: inline;
   list-style: none;
   padding-right: 15px;
   color: white;
-}*/
-
-.contact-link {
-  z-index:1;
 }
 
-.contact-link a {
-  border: 1px solid #fff;
-  padding: 10px 16px;
-}
 
 /* Content */
 
