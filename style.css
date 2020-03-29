@@ -230,6 +230,8 @@ a:hover {
 .content-img {
   display: block;
   overflow-y: auto;
+  width: 50vw;
+  text-align: right;
 }
 
 .content-img::-webkit-scrollbar {
@@ -242,6 +244,10 @@ a:hover {
 }
 
 .content-text {
-  width: 60%;
+  width: 60vw;
+  display: block;
+  margin-right: -100px;
+  z-index: 2;
+  align-self:center;
 }
 
