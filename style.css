@@ -68,10 +68,8 @@ a:hover {
   margin-right: 80px;
 }*/
 
-
 #menu-right, #menu-left {
   width: 15vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -85,30 +83,19 @@ a:hover {
   text-align:right;
 }
 
-#menu-right-bottom {
-  width: 100vw;
-  height: 10vh;
-}
-
-#menu-right-bottom ul li {
-  display: inline;
+#menu-left ul li {
   list-style: none;
-  padding-right: 15px;
   color: white;
 }
 
+
+
 #menu-right-middle {
   transform: rotate(-90deg);
-  height: 70vh;
-  line-height: 70vh;
   white-space: nowrap;
   text-align:center;
 }
 
-#menu-left-top ul li {
-  list-style: none;
-  color: white;
-}
 
 
 #menu-bottom {
@@ -118,13 +105,7 @@ a:hover {
   padding: 0 50px;
 }
 
-#menu-bottom-right ul{
-  width: 100vw;
-  padding:0;
-  margin-bottom:0;
-}
-
-#menu-bottom-right ul li {
+#menu-bottom-left ul li {
   display: inline;
   list-style: none;
   padding-right: 15px;
