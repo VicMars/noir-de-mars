@@ -41,7 +41,6 @@ a:hover {
   z-index:1;
 }
 
-
 #menu-top .active {
   border-bottom: 1px solid white;
   padding-bottom:5px;
@@ -56,14 +55,29 @@ a:hover {
   padding-bottom: 20px;
 }
 
-
-#menu-right {
+/*#menu-right {
   width: 10vw;
   height: 70vh;
   margin-right: 80px;
+}*/
+
+
+#menu-right, #menu-left {
+  width: 15vw;
+  height: 100vh;
+  display: flex;
+  align-content: space-between; ;
 }
 
-#menu-right h2 {
+#menu-right {
+  text-align:left;
+}
+
+#menu-left {
+  text-align:right;
+}
+
+#menu-right-middle h2 {
   transform: rotate(-90deg);
   height: 70vh;
   line-height: 70vh;
@@ -76,7 +90,7 @@ a:hover {
 }
 
 
-#menu-bottom {
+/*#menu-bottom {
   width: 100vw;
   height: 10vh;
   padding: 0 50px;
@@ -94,7 +108,7 @@ a:hover {
   list-style: none;
   padding-right: 15px;
   color: white;
-}
+}*/
 
 .contact-link {
   z-index:1;
@@ -244,10 +258,8 @@ a:hover {
 }
 
 .content-text {
-  width: 60vw;
+  width: 25vw;
   display: block;
-  margin-right: -100px;
-  z-index: 2;
   align-self:center;
 }
 
