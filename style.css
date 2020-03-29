@@ -20,13 +20,18 @@ a:hover {
 
 
 
-.main-container {
+.main {
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 
