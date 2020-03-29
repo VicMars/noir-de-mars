@@ -206,16 +206,17 @@ a:hover {
 
 
 .content-surface-design {
-  width: 70vw;
-  height: 70vh;
+  max-width: 85%;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .content-img {
   display: block;
   overflow-y: auto;
-  width: 50vw;
+  width: 40vw;
   text-align: right;
 }
 
