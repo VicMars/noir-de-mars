@@ -124,8 +124,8 @@ a:hover {
 .main-content {
   display: flex;
   align-items:center;
-  position:relative;
-  height: 80vh;
+  width: 70vw;
+  height: 100vh;
 }
 
 .content {
