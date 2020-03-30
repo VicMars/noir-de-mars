@@ -192,6 +192,10 @@ a:hover {
   }
 }
 .content-surface-text {
+  width:50vw;
+  padding-right:50px;
+  word-wrap: break-word;
+  align-self:center;
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
@@ -200,11 +204,6 @@ a:hover {
 .content-surface-text:nth-child(1) { animation-delay: -0.8s; }
 .content-surface-text:nth-child(2) { animation-delay: -0.2s; }
 
-.content-surface-text {
-  padding-right:50px;
-  word-wrap: break-word;
-  align-self:center;
-}
 
 .letter {
   font-size: 3rem;
