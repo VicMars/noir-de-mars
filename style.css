@@ -135,10 +135,8 @@ a:hover {
 /* About page */
 
 .content-about {
-  display: flex;
-  overflow-x: auto;
   width:70vw;
-  justify-content: center;
+  padding:10%;
 }
 
 .content-about::-webkit-scrollbar {
@@ -155,7 +153,7 @@ a:hover {
 }
 
 .content-about-second h2 {
-  font-size: 6.4rem;
+  font-size: 3.4rem;
   font-family: "Playfair Display";
   font-style: italic;
 }
