@@ -204,8 +204,10 @@ a:hover {
   align-self:center;
 }
 
-.content-surface-text h2 {
-  font-size: 3.4rem;
+
+
+.content-surface-text h2, .letter {
+  font-size: 3rem;
   font-family: "Playfair Display";
   font-style: italic;
   margin:0;
