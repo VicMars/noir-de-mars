@@ -131,7 +131,6 @@ a:hover {
 .content-about {
   display: flex;
   overflow-x: auto;
-  padding: 10%;
 }
 
 .content-about a{
