@@ -147,7 +147,6 @@ a:hover {
   align-items: top;
 }
 
-
 .content-about-text h2 {
   font-size: 1.4rem;
 }
@@ -172,8 +171,7 @@ a:hover {
 
 .line span {
   animation-name: moveUp ;
-  animation-duration: 0.5s;
-  transition-timing-function: infinite;
+  animation-duration: 3.5s;
 }
 
 
