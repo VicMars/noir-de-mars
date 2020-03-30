@@ -147,7 +147,7 @@ a:hover {
 }
 
 
-/*.content-about-text-slide h2 {
+.content-about-text-slide h2 {
   font-size: 24px;
   font-weight: 400;
   font-family: "Playfair Display";
@@ -156,19 +156,17 @@ a:hover {
 }
 
 
-@keyframes bottomToTop {
+@keyframes fadeIn {
   from {
     opacity: 0;
-    margin-top:-50px;
   }
   to {
     opacity:1;
-    margin-top:0;
   }
 }
 
 .line {
-  animation-name: bottomToTop;
+  animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
 }
@@ -176,7 +174,10 @@ a:hover {
 .line:nth-child(1) { animation-delay: -0.8s; }
 .line:nth-child(2) { animation-delay: -0.4s; }
 .line:nth-child(3) { animation-delay: -0.2s; }
-*/
+
+.line span {
+  color: red;
+}
 
 
 .rw-words{
