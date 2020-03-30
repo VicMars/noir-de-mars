@@ -85,22 +85,17 @@ a:hover {
   color: white;
 }
 
+#menu-bottom-right a:hover {
+  border: 1px solid white;
+  padding: 12px 8px;
+}
+
+
 /* Title */
 
 .current {
   padding-bottom: 10px;
   border-bottom: 4px solid white;
-}
-
-.title-main {
-  font-family: Playfair Display;
-  font-style:italic;
-  font-size: 2rem;
-}
-
-.title-main:hover {
-  font-family: Spartan;
-  border:0;
 }
 
 /* Content */
