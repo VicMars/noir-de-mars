@@ -159,10 +159,15 @@ a:hover {
   font-weight:400;
 }
 
+.content-about-second {
+  padding-bottom: 30px;
+}
+
 .content-about-second h2 {
   font-size: 3.4rem;
   font-family: "Playfair Display";
   font-style: italic;
+  margin:0;
 }
 
 @keyframes fadeIn {
@@ -174,21 +179,61 @@ a:hover {
   }
 }
 
-.content-about-second {
-  padding-bottom: 30px;
+.content-surface-design {
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
 }
 
-.content-about-second span:nth-child(1) { animation-delay: -0.8s; }
-.content-about-second span:nth-child(2) { animation-delay: -0.4s; }
-.content-about-second span:nth-child(3) { animation-delay: -0.2s; }
+.content-surface-design span:nth-child(1) { animation-delay: -0.8s; }
+.content-surface-design span:nth-child(2) { animation-delay: -0.4s; }
+.content-surface-design span:nth-child(3) { animation-delay: -0.2s; }
 
 .content-about-third p {
   padding-right:50px;
   text-align:right;
 }
+
+.content-about-second span{
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: rotateWord 12s linear infinite 0s;
+  -ms-animation: rotateWord 12s linear infinite 0s;
+  animation: rotateWord 12s linear infinite 0s;
+}
+.content-about-second span:nth-child(2) {
+    -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+  5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+  20% { opacity: 0; -ms-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
 
 
 
