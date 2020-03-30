@@ -147,7 +147,7 @@ a:hover {
   align-items: top;
 }
 
-.content-about-text h2 {
+.content-about-text h2, .content-about-text-top h2 {
   font-size: 1.4rem;
 }
 
