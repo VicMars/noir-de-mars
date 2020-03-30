@@ -135,7 +135,9 @@ a:hover {
 /* About page */
 
 .content-about {
+  display: flex;
   width:70vw;
+  align-items: center;
   padding:10%;
 }
 
