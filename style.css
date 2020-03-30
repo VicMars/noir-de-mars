@@ -45,13 +45,13 @@ a:hover {
 
 #menu-left {
   margin: 50px 0 50px 50px;
-  width: 20%;
+  width: 15%;
 }
 
 #menu-right {
   text-align:right;
   margin: 50px 50px 50px 0;
-  width: 20%;
+  width: 15%;
 }
 
 #menu-right ul li {
@@ -131,6 +131,8 @@ a:hover {
 .content-about {
   display: flex;
   overflow-x: auto;
+  width:70vw;
+  justify-content: center;
 }
 
 .content-about::-webkit-scrollbar {
@@ -145,48 +147,50 @@ a:hover {
   font-size: 1.4rem;
 }
 
-.content-about-first span {
-  font-size: 1.4rem;
+.content-about-first h2 {
+  font-size: 6.4rem;
   font-family: "Playfair Display";
   font-style: italic;
-  color: red;
 }
 
 
-@keyframes moveUp{
-  from {
-    transform: translateY(2vw);
-  }
-  to {
-    transform: translateY(-0.5vw);
-  }
+.content-about-first span {
+  position:relative;
+  font-size: 2rem;
+  padding-right: 20px;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: rotateWord 12s linear infinite 0s;
+  -ms-animation: rotateWord 12s linear infinite 0s;
+  animation: rotateWord 12s linear infinite 0s;
 }
 
 
-/*.line span {
-  animation-name: moveUp ;
-  animation-duration: 3.5s;
-}*/
-
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity:1;
-  }
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
 }
-
-.content-about-first {
-  animation-name: fadeIn;
-  animation-duration: 6s;
-  transition-timing-function: linear;
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+  5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+  20% { opacity: 0; -ms-transform: translateY(30px); }
+  80% { opacity: 0; }
+    100% { opacity: 0; }
 }
-
-.content-about-first span:nth-child(1) { animation-delay: -0.8s; }
-.content-about-first span:nth-child(2) { animation-delay: -0.4s; }
-.content-about-first span:nth-child(3) { animation-delay: -0.2s; }
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    35% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  65% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+  80% { opacity: 1; -webkit-transform: translateY(30px); transform: translateY(30px); }
+  90% { opacity: 0; }
+    100% { opacity: 0; }
 
 
 /* Horizontal Scrolling Images */
