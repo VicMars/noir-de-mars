@@ -129,7 +129,8 @@ a:hover {
 /* About page */
 
 .content-about {
-  display:flex;
+  display: flex;
+  overflow-x: auto;
   padding: 10%;
 }
 
@@ -137,21 +138,11 @@ a:hover {
   font-size: 20px;
 }
 
-.content-about-text {
-  margin: 0 auto;
-  align-items: bottom;
-}
-
-.content-about-text-top {
-  margin: 0 auto;
-  align-items: top;
-}
-
-.content-about-text h2, .content-about-text-top h2 {
+.content-about h2 {
   font-size: 1.4rem;
 }
 
-.content-about-text-top span {
+.content-about-first span {
   font-size: 1.4rem;
   font-family: "Playfair Display";
   font-style: italic;
