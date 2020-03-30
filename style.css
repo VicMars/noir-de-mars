@@ -168,7 +168,9 @@ a:hover {
 
 
 .line span {
-  animation: moveUp 5s infinite;
+  animation-name: moveUp ;
+  animation-duration: 0.5s;
+  transition-timing-function: infinite;
 }
 
 
