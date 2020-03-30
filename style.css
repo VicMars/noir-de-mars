@@ -211,7 +211,6 @@ a:hover {
 
 
 .content-surface-design {
-  max-width: 85%;
   height: 100vh;
   display: flex;
   justify-content: space-between;
