@@ -163,10 +163,10 @@ a:hover {
 }
 
 
-.line span {
+/*.line span {
   animation-name: moveUp ;
   animation-duration: 3.5s;
-}
+}*/
 
 
 @keyframes fadeIn {
@@ -178,15 +178,15 @@ a:hover {
   }
 }
 
-.line {
+.content-about-first {
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
 }
 
-.line:nth-child(1) { animation-delay: -0.8s; }
-.line:nth-child(2) { animation-delay: -0.4s; }
-.line:nth-child(3) { animation-delay: -0.2s; }
+.content-about-first span:nth-child(1) { animation-delay: -0.8s; }
+.content-about-first span:nth-child(2) { animation-delay: -0.4s; }
+.content-about-first span:nth-child(3) { animation-delay: -0.2s; }
 
 
 /* Horizontal Scrolling Images */
