@@ -200,7 +200,8 @@ a:hover {
 .content-surface-design:nth-child(2) { animation-delay: -0.2s; }
 
 .content-surface-text {
-  padding-bottom: 30px;
+  padding-right:50px;
+  align-self:center;
 }
 
 .content-surface-text h2 {
