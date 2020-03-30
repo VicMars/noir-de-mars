@@ -196,7 +196,6 @@ a:hover {
   }
 }
 
-
 .content-surface-design span:nth-child(1) { animation-delay: -0.8s; }
 .content-surface-design span:nth-child(2) { animation-delay: -0.2s; }
 
@@ -224,6 +223,7 @@ a:hover {
   -ms-animation: rotateWord 12s linear infinite 0s;
   animation: rotateWord 12s linear infinite 0s;
 }
+
 .content-sd-second span:nth-child(2) {
     -webkit-animation-delay: 3s;
   -ms-animation-delay: 3s;
