@@ -45,13 +45,13 @@ a:hover {
 
 #menu-left {
   margin: 50px 0 50px 50px;
-  width: 15%;
+  width: 20%;
 }
 
 #menu-right {
   text-align:right;
   margin: 50px 50px 50px 0;
-  width: 15%;
+  width: 20%;
 }
 
 #menu-right ul li {
@@ -108,12 +108,12 @@ a:hover {
 .main-content {
   display: flex;
   align-items:center;
-  width: 70vw;
+  width: 60vw;
   height: 100vh;
 }
 
 .content {
-  width: 70vw;
+  width: 60vw;
   height: 500px;
   display: flex;
   justify-content: space-between;
