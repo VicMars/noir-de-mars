@@ -185,7 +185,6 @@ a:hover {
   animation-duration: 6s;
   transition-timing-function: linear;
 }
-}
 
 @keyframes fadeIn {
   from {
@@ -196,26 +195,26 @@ a:hover {
   }
 }
 
-.content-surface-design span:nth-child(1) { animation-delay: -0.8s; }
-.content-surface-design span:nth-child(2) { animation-delay: -0.2s; }
+.content-surface-design:nth-child(1) { animation-delay: -0.8s; }
+.content-surface-design:nth-child(2) { animation-delay: -0.2s; }
 
-.content-surface-second {
+.content-surface-text {
   padding-bottom: 30px;
 }
 
-.content-surface-second h2 {
+.content-surface-text h2 {
   font-size: 3.4rem;
   font-family: "Playfair Display";
   font-style: italic;
   margin:0;
 }
 
-.content-surface-third p {
+.content-surface-text p {
   padding-right:50px;
   text-align:right;
 }
 
-.content-surface-second span{
+.content-surface-text span{
   position: absolute;
   opacity: 0;
   overflow: hidden;
@@ -224,7 +223,7 @@ a:hover {
   animation: rotateWord 12s linear infinite 0s;
 }
 
-.content-surface-second span:nth-child(2) {
+.content-surface-text span:nth-child(2) {
     -webkit-animation-delay: 3s;
   -ms-animation-delay: 3s;
   animation-delay: 3s;
