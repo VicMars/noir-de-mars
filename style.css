@@ -181,9 +181,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  animation-name: fadeIn;
-  animation-duration: 6s;
-  transition-timing-function: linear;
 }
 
 @keyframes fadeIn {
@@ -194,70 +191,27 @@ a:hover {
     opacity:1;
   }
 }
+.content-surface-text {
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  transition-timing-function: linear;
+}
 
-.content-surface-design:nth-child(1) { animation-delay: -0.8s; }
-.content-surface-design:nth-child(2) { animation-delay: -0.2s; }
+.content-surface-text:nth-child(1) { animation-delay: -0.8s; }
+.content-surface-text:nth-child(2) { animation-delay: -0.2s; }
 
 .content-surface-text {
   padding-right:50px;
+  word-wrap: break-word;
   align-self:center;
 }
 
-.content-surface-text h2, .letter {
+.letter {
   font-size: 3rem;
   font-family: "Playfair Display";
   font-style: italic;
   margin:0;
-}
-
-.content-surface-text p {
-  padding-top:25px;
-  text-align:right;
-}
-
-.content-surface-text .anim {
-  position: absolute;
-  opacity: 0;
-  overflow: hidden;
-  -webkit-animation: rotateWord 12s linear infinite 0s;
-  -ms-animation: rotateWord 12s linear infinite 0s;
-  animation: rotateWord 12s linear infinite 0s;
-}
-
-.content-surface-text .anim:nth-child(2) {
-  -webkit-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
-}
-
-@-webkit-keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; -webkit-transform: translateY(-30px); }
-  5% { opacity: 1; -webkit-transform: translateY(0px);}
-  17% { opacity: 1; -webkit-transform: translateY(0px); }
-  20% { opacity: 0; -webkit-transform: translateY(30px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@-ms-keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; -ms-transform: translateY(-30px); }
-  5% { opacity: 1; -ms-transform: translateY(0px);}
-  17% { opacity: 1; -ms-transform: translateY(0px); }
-  20% { opacity: 0; -ms-transform: translateY(30px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-
-@keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
-  5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-  17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
-  20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
+  line-height:1;
 }
 
 
