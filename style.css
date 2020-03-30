@@ -90,7 +90,8 @@ a:hover {
 
 .current {
   padding-bottom: 10px;
-  border-bottom: 4px solid white;}
+  border-bottom: 4px solid white;
+}
 
 .title-main {
   font-family: Playfair Display;
@@ -120,7 +121,7 @@ a:hover {
 
 /* Home page */
 
-.context-text h2{
+.context-text h2 {
   font-size: 3rem;
   text-align: left;
 }
@@ -146,7 +147,7 @@ a:hover {
   display: none;
 }
 
-.content-about a{
+.content-about a {
   font-size: 20px;
 }
 
@@ -210,11 +211,11 @@ a:hover {
 }
 
 .content-surface-text p {
-  padding-right:50px;
+  padding-top:25px;
   text-align:right;
 }
 
-.content-surface-text span{
+.content-surface-text span {
   position: absolute;
   opacity: 0;
   overflow: hidden;
@@ -224,38 +225,40 @@ a:hover {
 }
 
 .content-surface-text span:nth-child(2) {
-    -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
   -ms-animation-delay: 3s;
   animation-delay: 3s;
 }
 
 @-webkit-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+  0% { opacity: 0; }
+  2% { opacity: 0; -webkit-transform: translateY(-30px); }
   5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
+  17% { opacity: 1; -webkit-transform: translateY(0px); }
   20% { opacity: 0; -webkit-transform: translateY(30px); }
   80% { opacity: 0; }
-    100% { opacity: 0; }
+  100% { opacity: 0; }
 }
+
 @-ms-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -ms-transform: translateY(-30px); }
+  0% { opacity: 0; }
+  2% { opacity: 0; -ms-transform: translateY(-30px); }
   5% { opacity: 1; -ms-transform: translateY(0px);}
-    17% { opacity: 1; -ms-transform: translateY(0px); }
+  17% { opacity: 1; -ms-transform: translateY(0px); }
   20% { opacity: 0; -ms-transform: translateY(30px); }
   80% { opacity: 0; }
-    100% { opacity: 0; }
+  100% { opacity: 0; }
 }
+
 @keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  0% { opacity: 0; }
+  2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
   5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+  17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
   20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
   80% { opacity: 0; }
-    100% { opacity: 0; }
-
+  100% { opacity: 0; }
+}
 
 
 
