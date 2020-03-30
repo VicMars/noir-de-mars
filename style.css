@@ -130,7 +130,6 @@ a:hover {
 
 .content-about {
   display:flex;
-  align-items:center;
   padding: 10%;
 }
 
@@ -140,17 +139,20 @@ a:hover {
 
 .content-about-text {
   margin: 0 auto;
-  font-size: 20px;
-  align-items: center;
+  align-items: bottom;
+}
+
+.content-about-text-top {
+  margin: 0 auto;
+  align-items: top;
 }
 
 
-.content-about-text-slide h2 {
+.content-about-text h2 {
   font-size: 1.4rem;
-  text-align: left;
 }
 
-.content-about-text-slide span {
+.content-about-text-top span {
   font-size: 1.4rem;
   font-family: "Playfair Display";
   font-style: italic;
