@@ -159,7 +159,7 @@ a:hover {
 
 @keyframes moveUp{
   from {
-    transform: translateY(0);
+    transform: translateY(0.5vw);
   }
   to {
     transform: translateY(-0.5vw);
@@ -167,7 +167,7 @@ a:hover {
 }
 
 
-.content-about-text-slide span {
+.line span {
   animation: moveUp 5s infinite;
 }
 
@@ -190,62 +190,6 @@ a:hover {
 .line:nth-child(1) { animation-delay: -0.8s; }
 .line:nth-child(2) { animation-delay: -0.4s; }
 .line:nth-child(3) { animation-delay: -0.2s; }
-
-
-.rw-words{
-  display: inline;
-  text-indent: 10px;
-}
-.rw-words-1 span{
-  position: absolute;
-  opacity: 0;
-  overflow: hidden;
-  color: yellow;
-  -webkit-animation: rotateWord 18s linear infinite 0s;
-  -ms-animation: rotateWord 18s linear infinite 0s;
-  animation: rotateWord 18s linear infinite 0s;
-}
-.rw-words-1 span:nth-child(2) {
-    -webkit-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
-}
-
-.rw-words-1 span:nth-child(3) {
-    -webkit-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
-}
-
-
-@-webkit-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); }
-  5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-  20% { opacity: 0; -webkit-transform: translateY(30px); }
-  80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@-ms-keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -ms-transform: translateY(-30px); }
-  5% { opacity: 1; -ms-transform: translateY(0px);}
-    17% { opacity: 1; -ms-transform: translateY(0px); }
-  20% { opacity: 0; -ms-transform: translateY(30px); }
-  80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-@keyframes rotateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
-  5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
-  20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
-  80% { opacity: 0; }
-    100% { opacity: 0; }
-
-
 
 
 .content-about-first i{
