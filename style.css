@@ -18,8 +18,6 @@ a:hover {
   padding-bottom:5px;
 }
 
-
-
 .main {
   width: 100vw;
   height: 100vh;
@@ -87,7 +85,7 @@ a:hover {
 
 /* Title */
 
-.title-main {
+.current {
   font-family: Playfair Display;
   font-style: italic;
   font-size: 26px;
@@ -114,16 +112,17 @@ a:hover {
 
 /* Home page */
 
-.title-left {
-  align-self: flex-start;
-  margin-right: -150px;
-  z-index:1;
+.context-text h2{
+  font-family: Playfair Display;
+  font-size: 3rem;
+  text-align: center;
 }
 
-.title-right {
-  align-self: flex-end;
-  margin-left: -150px;
-  z-index:1;
+.context-text a {
+  font-family: Playfair Display;
+  font-size: 3rem;
+  text-align: center;
+  font-style: italic;
 }
 
 
@@ -170,7 +169,7 @@ a:hover {
 
 .line {
   animation-name: bottomToTop;
-  animation-duration: 12s;
+  animation-duration: 6s;
   transition-timing-function: linear;
 }
 
