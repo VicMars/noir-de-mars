@@ -45,11 +45,13 @@ a:hover {
 
 #menu-left {
   margin: 50px 0 50px 50px;
+  width: 20%;
 }
 
 #menu-right {
   text-align:right;
   margin: 50px 50px 50px 0;
+  width: 20%;
 }
 
 #menu-right ul li {
@@ -86,10 +88,8 @@ a:hover {
 /* Title */
 
 .current {
-  font-family: Playfair Display;
-  font-style: italic;
-  font-size: 26px;
-}
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;}
 
 /* Content */
 
@@ -113,9 +113,8 @@ a:hover {
 /* Home page */
 
 .context-text h2{
-  font-family: Playfair Display;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
 }
 
 .context-text a {
@@ -129,10 +128,9 @@ a:hover {
 /* About page */
 
 .content-about {
-  width: 70vw;
-  height: 70vh;
   display:flex;
   align-items:center;
+  padding: 10%;
 }
 
 .content-about a{
@@ -140,7 +138,6 @@ a:hover {
 }
 
 .content-about-text {
-  width: 50vw;
   margin: 0 auto;
   font-size: 20px;
   align-items: center;
@@ -148,11 +145,30 @@ a:hover {
 
 
 .content-about-text-slide h2 {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.content-about-text-slide span {
+  font-size: 3rem;
   font-family: "Playfair Display";
   font-style: italic;
-  text-align: center;
+  color: red;
+}
+
+
+@keyframes moveUp{
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-0.5vw);
+  }
+}
+
+
+.content-about-text-slide span {
+  animation: moveUp 5s infinite;
 }
 
 
@@ -174,10 +190,6 @@ a:hover {
 .line:nth-child(1) { animation-delay: -0.8s; }
 .line:nth-child(2) { animation-delay: -0.4s; }
 .line:nth-child(3) { animation-delay: -0.2s; }
-
-.line span {
-  color: red;
-}
 
 
 .rw-words{
