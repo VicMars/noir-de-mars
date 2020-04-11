@@ -28,18 +28,36 @@ a:hover {
 
 .main-container {
   display: flex;
-  height:90vh;
+  height:70vh;
   justify-content: space-between;
+  align-items:center;
 }
+
+/* Content */
+
+.main-content {
+  display: flex;
+  align-items:center;
+  width: 100%;
+  height: 70vh;
+}
+
+.content {
+  width:60vw;
+  align-self:center;
+}
+
 
 
 /* MENUS */
 
 
-#menu-top {
+#menu-top, #menu-bottom {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
+  align-items:center;
+  height:15vh;
+  margin: 25px;
 }
 
 
@@ -52,43 +70,21 @@ a:hover {
 
 }
 
-/*#menu-right, #menu-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 50px;
-}*/
 
 #menu-left {
-  margin: 50px 0 50px 50px;
-  width: 20vw;
-}
-
-#menu-right {
-  text-align:right;
-  margin: 50px 50px 50px 0;
-  width: 20vw;
-}
-
-#menu-right ul li {
-  list-style: none;
-  color: white;
-  margin: 0;
-  padding: 0 0 30px 0;
-}
-
-
-#menu-left-middle {
+  margin: 50px;
+  width: 5vw;
   transform: rotate(-90deg);
   white-space: nowrap;
   text-align:center;
 }
 
-#menu-bottom {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 50px 50px 50px;
+#menu-right {
+  margin: 50px;
+  width: 5vw;
 }
+
+
 
 #menu-bottom-left ul {
   margin: 0;
@@ -118,20 +114,6 @@ a:hover {
 .current {
   padding-bottom: 10px;
   border-bottom: 4px solid white;
-}
-
-/* Content */
-
-.main-content {
-  display: flex;
-  align-items:center;
-  width: 60vw;
-  height: 100vh;
-}
-
-.content {
-  width:60vw;
-  align-self:center;
 }
 
 
