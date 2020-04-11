@@ -35,12 +35,29 @@ a:hover {
 
 /* MENUS */
 
-#menu-right, #menu-left {
+
+#menu-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+
+#menu-top-right ul li {
+  display: inline;
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0 0 30px 0;
+
+}
+
+/*#menu-right, #menu-left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 50px;
-}
+}*/
 
 #menu-left {
   margin: 50px 0 50px 50px;
@@ -85,9 +102,14 @@ a:hover {
   color: white;
 }
 
+#menu-bottom-right a {
+  padding: 12px 16px;
+}
+
+
 #menu-bottom-right a:hover {
   border: 1px solid white;
-  padding: 12px 8px;
+  padding: 12px 16px;
 }
 
 
