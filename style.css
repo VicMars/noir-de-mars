@@ -126,8 +126,8 @@ a:hover {
 }
 
 .content-index-img {
-  width:50%;
   height:65vh;
+  text-align:center;
 }
 
 .content-index-text h1 {
