@@ -147,12 +147,12 @@ a:hover {
   text-align:center;
 }
 
-.content-index-text .left {
+.content-index-text.left {
   margin-right: -4%;
   z-index: 2;
 }
 
-.content-index-text .right {
+.content-index-text.right {
   margin-left: -4%;
   z-index: 2;
 }
