@@ -127,14 +127,24 @@ a:hover {
 
 .content-index-text {
   display: flex;
-  align-content:center;
+  justify-content: space-evenly;
+  align-items: center;
   height:65vh;
   background-image: url(./images/Vicky_Andre_Back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65vh;
 }
+
 
 .content-index-text:hover {
   background: url("./images/Vicky_Andre_Front.jpg");
+  background-image: url(./images/Vicky_Andre_Back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65vh;
 }
+
 
 .content-index-text h1 {
   font-size: 5rem;
