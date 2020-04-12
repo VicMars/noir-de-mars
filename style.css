@@ -150,10 +150,21 @@ a:hover {
 }
 
 .content-index-text-bottom ul li {
-  display: inline;
+  display: inline-block;
   list-style: none;
+  padding: 0 10px;
+  line-height:2;
 }
 
+.content-index-text-bottom ul {
+display:flex;
+align-content:center;
+
+}
+.content-index-text-bottom i {
+  font-size:0.6em;
+  line-height:1.6;
+}
 
 /* About page */
 
