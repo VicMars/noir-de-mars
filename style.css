@@ -136,25 +136,30 @@ a:hover {
 }
 
 .content-index-text h1 {
+  overflow: hidden;
+   white-space: nowrap;
   font-size: calc(75px + 125*(100vw - 414px)/1506);
   line-height: calc(85px + 165*(100vw - 414px)/1506);
   font-family: Playfair Display;
   letter-spacing:2px;
   text-align:center;
+  animation-name: animation-letter;
+  animation-duration: 12s;
+  animation-timing-function: steps(10, end);
 }
 
-.letter {
+/*.letter {
   opacity:1;
   color: blue;
   animation-name: animation-letter;
   animation-duration:12s;
   animation-delay:2s;
-}
+}*/
 
 @keyframes animation-letter {
   from {
     opacity:0;
-    width: 300%;
+    width: 0%;
   }
 
   to {
