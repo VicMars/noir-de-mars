@@ -142,7 +142,7 @@ a:hover {
   letter-spacing:2px;
   text-align:center;
   animation-name: animation-letter;
-  animation-duration: ease-in 12s;
+  animation-duration: 12s;
   opacity:0;
 }
 
