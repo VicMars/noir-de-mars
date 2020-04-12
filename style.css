@@ -143,6 +143,25 @@ a:hover {
   text-align:center;
 }
 
+.letter {
+  opacity:1;
+  color: blue;
+  transition: margin-right 2s, color 1s;
+  animation:letter;
+}
+
+@keyframes letter {
+  from {
+    opacity:0;
+    width: 300%;
+  }
+
+  to {
+    opacity:1;
+    width: 100%;
+  }
+}
+
 .content-index-text-bottom {
   text-align:center;
   font-size:1.1em;
@@ -165,6 +184,8 @@ align-content:center;
   font-size:0.6em;
   line-height:1.6;
 }
+
+
 
 /* About page */
 
