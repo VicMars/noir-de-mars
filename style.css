@@ -146,12 +146,12 @@ a:hover {
 .letter {
   opacity:1;
   color: blue;
-  transition: margin-right 2s, color 1s;
-  animation-name:letter;
+  animation-name: animation-letter;
   animation-duration:12s;
+  animation-delay:2s;
 }
 
-@keyframes letter {
+@keyframes animation-letter {
   from {
     opacity:0;
     width: 300%;
