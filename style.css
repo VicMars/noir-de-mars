@@ -119,7 +119,12 @@ a:hover {
 
 /* Home page */
 
-.content-text, .content-img {
+.content-text {
+  width:25%;
+  height:65vh;
+}
+
+.content-img {
   width:50%;
   height:65vh;
 }
@@ -130,11 +135,8 @@ a:hover {
   font-style: italic;
 }
 
-.content-text a {
-  font-family: Playfair Display;
-  font-size: 3rem;
-  text-align: center;
-  font-style: italic;
+.content-img img {
+  height:65vh;
 }
 
 
