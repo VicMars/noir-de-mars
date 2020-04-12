@@ -136,8 +136,8 @@ a:hover {
 }
 
 .content-index-text h1 {
-  font-size: calc(55px + 125*(100vw - 414px)/1506);
-  line-height: calc(65px + 165*(100vw - 414px)/1506);
+  font-size: calc(15px + 125*(100vw - 414px)/1506);
+  line-height: calc(15px + 165*(100vw - 414px)/1506);
   font-family: Playfair Display;
   letter-spacing:3px;
   text-align:center;
@@ -145,7 +145,7 @@ a:hover {
 
 .letter-name {
   animation-name: animation-letter;
-  animation-duration: 4s;
+  animation-duration: 6s;
   opacity:1;
 }
 
@@ -163,27 +163,28 @@ a:hover {
   }
 }
 
-.content-index-text-bottom {
+
+.content-index-text-bottom h2 {
   text-align:center;
-  font-size:1.1em;
+  font-size:1.3em;
   font-weight: 100;
+text-transform:uppercase;
 }
 
 .content-index-text-bottom ul li {
   display: inline-block;
   list-style: none;
   padding: 0 10px;
-  line-height:2;
 }
 
 .content-index-text-bottom ul {
 display:flex;
-align-content:center;
+align-items:center;
 
 }
 .content-index-text-bottom i {
   font-size:0.6em;
-  line-height:1.6;
+  padding-bottom: 15px;
 }
 
 
