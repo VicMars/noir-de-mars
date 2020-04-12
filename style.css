@@ -119,24 +119,31 @@ a:hover {
 
 /* Home page */
 
-.content-text {
+.content-index-text {
   width:25%;
   height:65vh;
 }
 
-.content-img {
+.content-index-img {
   width:50%;
   height:65vh;
 }
 
-.content-text h1 {
+.content-index-text h1 {
   font-size: 3rem;
   font-family: Playfair Display;
   font-style: italic;
 }
 
-.content-img img {
+.content-index-text h2 {
+  font-size: 1.4rem;
+  text-align:center;
+}
+
+.content-index-img img {
   height:65vh;
+  margin:0 auto;
+  text-align:center;
 }
 
 
