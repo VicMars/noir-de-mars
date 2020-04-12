@@ -138,8 +138,7 @@ a:hover {
 
 
 .content-index-text:hover {
-  background: url("./images/Vicky_Andre_Front.jpg");
-  background-image: url(./images/Vicky_Andre_Back.jpg);
+  background-image: url(./images/Vicky_Andre_Front.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 65vh;
