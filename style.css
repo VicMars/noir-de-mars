@@ -148,11 +148,13 @@ a:hover {
 }
 
 .content-index-text.left {
-  margin-right: -4%;
+  margin-right: -5%;
   z-index: 2;
 }
 
 .content-index-text.right {
+  align-self:flex-end;
+  margin-bottom: 20px;
   margin-left: -4%;
   z-index: 2;
 }
