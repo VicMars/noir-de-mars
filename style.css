@@ -136,16 +136,16 @@ a:hover {
 }
 
 .content-index-text h1 {
-  font-size: calc(75px + 125*(100vw - 414px)/1506);
-  line-height: calc(85px + 165*(100vw - 414px)/1506);
+  font-size: calc(55px + 125*(100vw - 414px)/1506);
+  line-height: calc(65px + 165*(100vw - 414px)/1506);
   font-family: Playfair Display;
-  letter-spacing:2px;
+  letter-spacing:3px;
   text-align:center;
 }
 
 .letter-name {
   animation-name: animation-letter;
-  animation-duration: 6s;
+  animation-duration: 4s;
   opacity:1;
 }
 
