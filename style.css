@@ -24,6 +24,12 @@ a:hover {
   top: 0;
   left: 0;
   overflow: hidden;
+  background-image: url(./images/Vicky_André_Textile_design.jpg);
+  opacity:1;
+}
+
+.main:hover {
+  opacity:0;
 }
 
 .main-container {
