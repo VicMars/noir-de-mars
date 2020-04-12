@@ -147,11 +147,11 @@ a:hover {
   opacity:1;
   color: blue;
   transition: margin-right 2s, color 1s;
-  animation:letteranim;
+  animation-name:letter;
   animation-duration:12s;
 }
 
-@keyframes letteranim {
+@keyframes letter {
   from {
     opacity:0;
     width: 300%;
