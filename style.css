@@ -131,13 +131,14 @@ a:hover {
 }
 
 .content-index-text h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: Playfair Display;
   font-style: italic;
 }
 
-.content-index-text h2 {
-  font-size: 1.4rem;
+.content-index-img h2 {
+  font-size: 1.1rem;
+  font-weight:100;
   text-align:center;
 }
 
@@ -145,6 +146,10 @@ a:hover {
   height:65vh;
   margin:0 auto;
   text-align:center;
+}
+
+.content-index-text .left {
+  margin-right:-10%;
 }
 
 
