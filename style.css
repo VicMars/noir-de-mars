@@ -146,25 +146,23 @@ a:hover {
   opacity:1;
 }
 
-/*.letter {
-  opacity:1;
-  color: blue;
+.letter {
   animation-name: animation-letter;
-  animation-duration:12s;
-  animation-delay:2s;
-}*/
+  animation-duration: 6s;
+  opacity:1;
+}
 
 @keyframes animation-letter {
   from {
     opacity:0;
     width: 0%;
-    transform: translateX(0px);
+    top:-50px;
   }
 
   to {
     opacity:1;
     width: 100%;
-    transform: translateX(10px);
+    top:0;
   }
 }
 
