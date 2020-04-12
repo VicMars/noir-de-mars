@@ -141,9 +141,6 @@ a:hover {
   font-family: Playfair Display;
   letter-spacing:2px;
   text-align:center;
-  animation-name: animation-letter;
-  animation-duration: 6s;
-  opacity:1;
 }
 
 .letter-name {
