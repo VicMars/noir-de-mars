@@ -142,8 +142,8 @@ a:hover {
   letter-spacing:2px;
   text-align:center;
   animation-name: animation-letter;
-  animation-duration: ease-in 3s;
-  opacity:1;
+  animation-duration: ease-in 12s;
+  opacity:0;
 }
 
 /*.letter {
