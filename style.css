@@ -242,10 +242,6 @@ align-items:center;
 
 
 .content-about {
-  display: flex;
-  width:70vw;
-  align-items: center;
-  padding:16%;
 }
 
 .content-about::-webkit-scrollbar {
