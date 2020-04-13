@@ -125,9 +125,9 @@ a:hover {
 
 
 #menu-bottom-right i {
-  font-size: 1em;
+  font-size: 0.6em;
   text-align:center;
-  line-height:0.5;
+  line-height:2;
   mix-blend-mode:difference;
   animation-name: bounce;
   animation-duration: 1s;
@@ -136,11 +136,11 @@ a:hover {
 
 @keyframes bounce {
   from {
-    margin-top:-10px;
+    margin-left:-10px;
   }
 
   to {
-    margin-top:0;
+    margin-left:0;
   }
 }
 
