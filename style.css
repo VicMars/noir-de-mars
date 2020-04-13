@@ -121,20 +121,8 @@ a:hover {
   color: white;
 }
 
-#menu-bottom-left a:hover {
-  display:none;
-}
 
-#menu-bottom-left i {
-  display:none;
-}
 
-#menu-bottom-left i:hover {
-  display:block;
-  text-align:center;
-  color:#fff;
-  mix-blend-mode: difference;
-}
 
 
 #menu-bottom-right i {
