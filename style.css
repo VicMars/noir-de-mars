@@ -217,18 +217,15 @@ mix-blend-mode: difference;
 }
 
 
-.content-index-text-bottom h2 {
-  text-align:center;
-  font-size:1.3em;
-  font-weight: 100;
-  color: #000;
-  mix-blend-mode: difference;
-}
-
 .content-index-text-bottom ul li {
   display: inline-block;
   list-style: none;
   padding: 0 10px;
+  text-align:center;
+  font-size: 2em;
+  font-weight: 100;
+  color: #000;
+  mix-blend-mode: difference;
 }
 
 .content-index-text-bottom ul {
