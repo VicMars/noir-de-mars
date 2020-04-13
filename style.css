@@ -24,10 +24,17 @@ a:hover {
   top: 0;
   left: 0;
   overflow: hidden;
-  background-image: url("./images/Vicky_Andre--background.jpg");
 }
 
-
+.main-index {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-image: url("./images/Vicky_Andre--background.jpg");
+}
 
 .main-container {
   display: flex;
@@ -144,6 +151,7 @@ a:hover {
   font-family: Playfair Display;
   letter-spacing:3px;
   text-align:center;
+  color: #000;
 }
 
 .letter-name {
@@ -171,7 +179,8 @@ a:hover {
   text-align:center;
   font-size:1.3em;
   font-weight: 100;
-text-transform:uppercase;
+  text-transform:uppercase;
+  color: #000;
 }
 
 .content-index-text-bottom ul li {
@@ -188,6 +197,7 @@ align-items:center;
 .content-index-text-bottom i {
   font-size:0.6em;
   padding-bottom: 15px;
+  color:#000;
 }
 
 
