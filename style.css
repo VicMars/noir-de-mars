@@ -32,6 +32,7 @@ a:hover {
   left: 0;
   overflow: hidden;
   background-image: url("./images/Vicky_Andre--background.jpg");
+  opacity: 0.9;
 }
 
 @media (max-width: 968px) {
@@ -85,7 +86,7 @@ a:hover {
   justify-content: space-between;
   align-items:center;
   height:10vh;
-  margin: 2%;
+  margin: 2% 4%;
 }
 
 
@@ -161,7 +162,7 @@ mix-blend-mode: difference;
 
 @keyframes move {
   from {
-    margin-left:-10px;
+    margin-left:-15px;
   }
 
   to {
@@ -239,6 +240,11 @@ align-items:center;
 
 /* About page */
 
+.main-content-about {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content-about {
   display: flex;
   width:70vw;
@@ -259,6 +265,10 @@ align-items:center;
   font-weight:400;
 }
 
+
+.content-img {
+
+}
 
 /* Horizontal Scrolling Images */
 
