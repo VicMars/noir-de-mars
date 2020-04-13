@@ -186,6 +186,7 @@ mix-blend-mode: difference;
   letter-spacing:3px;
   text-align:center;
   color: #000;
+  mix-blend-mode: difference;
 }
 
 .letter-name {
