@@ -1,5 +1,4 @@
 body {
-  background-color: #000 !important;
   font-family: "Spartan";
   color: white;
 }
@@ -23,6 +22,7 @@ a:hover {
   top: 0;
   left: 0;
   overflow: hidden;
+  background-color:#000;
 }
 
 .main-index {
@@ -113,7 +113,7 @@ a:hover {
 }
 
 #menu-bottom-left ul li {
-  display: inline;
+  display: inline-block;
   list-style: none;
   padding-right: 15px;
   color: white;
@@ -129,7 +129,7 @@ display:block;
 color:transparent;
 width: inherit;
 text-align:center;
-margin-bottom:-15px;
+margin-bottom:-20px;
 }
 
 #menu-bottom-left li:hover i{
@@ -137,7 +137,8 @@ color: #fff;
 display:block;
 width: inherit;
 text-align:center;
-margin-bottom:-15px;
+margin-bottom:-20px;
+mix-blend-mode: difference;
 }
 
 
