@@ -240,10 +240,6 @@ align-items:center;
 
 /* About page */
 
-.main-content-about {
-  display: flex;
-  justify-content: space-between;
-}
 
 .content-about {
   display: flex;
