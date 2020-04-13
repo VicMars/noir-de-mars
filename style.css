@@ -36,6 +36,11 @@ a:hover {
   background-image: url("./images/Vicky_Andre--background.jpg");
 }
 
+.main-index a {
+  color: #fff;
+  mix-blend-mode:difference;
+}
+
 .main-container {
   display: flex;
   height:65vh;
