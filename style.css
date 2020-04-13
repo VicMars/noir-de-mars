@@ -5,7 +5,6 @@ body {
 
 a {
   color: white;
-  font-size: 16px;
   text-decoration: none;
 }
 
@@ -42,7 +41,6 @@ a:hover {
 }
 
 .main-index a {
-  color: #fff;
   mix-blend-mode:difference;
 }
 
@@ -224,9 +222,8 @@ mix-blend-mode: difference;
   text-align:center;
   font-size: 2em;
   font-weight: 100;
-  color: #000;
-  mix-blend-mode: difference;
 }
+
 
 .content-index-text-bottom ul {
 display:flex;
@@ -235,10 +232,9 @@ align-items:center;
 }
 .content-index-text-bottom i {
   font-size:0.6em;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   color:#000;
 }
-
 
 
 /* About page */
