@@ -1,1 +1,388 @@
-test.html
+body {
+  font-family: "Spartan";
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.95);
+}
+
+.main-index {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-image: url("./images/Vicky_Andre--background.jpg");
+  opacity: 0.95;
+}
+
+@media (max-width: 968px) {
+  .main-index {
+  background-position-y: 4em;
+  }
+}
+
+.main-index a {
+  mix-blend-mode:difference;
+}
+
+.main-container {
+  display: flex;
+  height:65vh;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* Content */
+
+.main-content {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 100%;
+  height: 65vh;
+}
+
+
+.main-content-index {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 65vh;
+}
+
+.content {
+  width:60vw;
+  align-self:center;
+}
+
+
+
+/* MENUS */
+
+
+#menu-top, #menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height:10vh;
+  margin: 2% 4%;
+}
+
+#menu-top-left {
+  font-family: Playfair Display;
+}
+
+
+#menu-top-right ul li {
+  display: inline;
+  list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+
+#menu-top-right a:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+
+#menu-left {
+  margin: 50px;
+  width: 5vw;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  text-align:center;
+}
+
+
+#menu-left a:hover {
+  border-bottom: 1px solid white;
+}
+
+#menu-right {
+  margin: 50px;
+  width: 5vw;
+}
+
+#menu-bottom-left ul,  #menu-bottom-left-home ul{
+  margin: 0;
+  padding: 0;
+}
+
+#menu-bottom-left ul li, #menu-bottom-left-home ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+  color: white;
+  width: 125px;
+}
+
+#menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
+  color:transparent;
+}
+
+#menu-bottom-left li i, #menu-bottom-left-home li i,{
+display:block;
+color:transparent;
+width: inherit;
+text-align:center;
+margin-bottom:-20px;
+}
+
+#menu-bottom-left li:hover i{
+color: #fff;
+font-size: 1.2em;
+display:block;
+width: inherit;
+text-align:center;
+margin-bottom:-20px;
+}
+
+
+#menu-bottom-left-home li:hover i{
+color: #fff;
+font-size: 1.2em;
+display:block;
+width: inherit;
+text-align:center;
+margin-bottom:-20px;
+mix-blend-mode: difference;
+}
+
+
+#menu-bottom-right i {
+  font-size: 0.6em;
+  display:block;
+  text-align:center;
+  line-height:2;
+  mix-blend-mode:difference;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    margin-left:-15px;
+  }
+
+  to {
+    margin-left:0;
+  }
+}
+
+/* Title */
+
+.current {
+  padding-bottom: 10px;
+  border-bottom: 4px solid white;
+}
+
+
+/* Home page */
+
+.content-index-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-index-text h1 {
+  font-size: 6em;
+  line-height: 1;
+  font-family: Playfair Display;
+  letter-spacing:3px;
+  text-align:center;
+  color: #000;
+}
+
+.letter-name {
+  animation-name: animation-letter;
+  animation-duration: 6s;
+  opacity:1;
+}
+
+@keyframes animation-letter {
+  from {
+
+    width: 0%;
+    margin-right:-100px;
+  }
+
+  to {
+
+    width: 100%;
+    margin-right:0;
+  }
+}
+
+
+.content-index-text-bottom ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  text-align:center;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+
+.content-index-text-bottom ul {
+display:flex;
+align-items:center;
+
+}
+.content-index-text-bottom i {
+  font-size:0.6em;
+  padding-bottom: 10px;
+  color:#000;
+}
+
+
+/* About page */
+
+.main-content-about {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    height: 65vh;
+    margin: 0 8%;
+}
+
+.content-about {
+  flex: 2;
+  overflow: auto;
+}
+
+.content-about::-webkit-scrollbar {
+  display: none;
+}
+
+.content-about a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-about p {
+  font-size: 1rem;
+  font-weight:400;
+}
+
+.content-about h1{
+  font-family: "Playfair Display";
+}
+
+.content-about-img {
+  flex: 1;
+  align-self: center;
+  margin: 5%;
+}
+
+.content-about-img img{
+  width:100%;
+}
+
+/* Horizontal Scrolling Images */
+
+.content-work {
+  display: flex;
+  overflow-x: auto;
+}
+
+.content-work img {
+  max-height: 70vh;
+  margin-right: 20px;
+}
+
+.content-work::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Surface Design Page */
+
+.content-surface-text {
+  width:50vw;
+  padding-right:50px;
+  word-wrap: break-word;
+  align-self:center;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  transition-timing-function: linear;
+}
+
+.content-surface-text p:nth-child(1) { animation-delay: 1s; }
+.content-surface-text p:nth-child(2) { animation-delay: -0.4s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+.letter {
+  font-size: 3rem;
+  font-family: "Playfair Display";
+  font-style: italic;
+  margin:0;
+  line-height:1;
+}
+
+
+
+/* Vertical Scrolling Images */
+
+.content-img {
+  display: block;
+  overflow-y: auto;
+  width: 50vw;
+}
+
+.content-img::-webkit-scrollbar {
+  display: none;
+}
+
+.content-img img {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
