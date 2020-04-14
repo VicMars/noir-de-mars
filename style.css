@@ -1,5 +1,5 @@
 body {
-  font-family: "Spartan";
+  font-family: "Roboto";
   color: white;
 }
 
@@ -87,6 +87,10 @@ a:hover {
   align-items:center;
   height:10vh;
   margin: 2% 4%;
+}
+
+#menu-top-left {
+  font-family: Playfair Display;
 }
 
 
@@ -240,7 +244,7 @@ align-items:center;
 
 /* About page */
 
-.main-content {
+.main-content-about {
     display: flex;
     width: 100%;
     height: 65vh;
