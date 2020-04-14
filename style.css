@@ -310,6 +310,18 @@ align-items:center;
 
 .content-about-img {
   margin: 0 auto;
+  animation-name:fadeInImg;
+  animation-duration: 6s;
+}
+
+@keyframes fadeInImg{
+  from {
+    opacity: 1;
+    transform: translate3d(42px, -62px, -135px);
+  }
+  to {
+    opacity:0;
+  }
 }
 
 /* Horizontal Scrolling Images */
