@@ -109,8 +109,7 @@ a:hover {
 
 
 #menu-left {
-  margin: 50px;
-  width: 5vw;
+  margin-left: 50px;
   transform: rotate(-90deg);
   white-space: nowrap;
   text-align:center;
@@ -122,8 +121,7 @@ a:hover {
 }
 
 #menu-right {
-  margin: 50px;
-  width: 5vw;
+  margin-right: 50px;
 }
 
 #menu-bottom-left ul,  #menu-bottom-left-home ul{
