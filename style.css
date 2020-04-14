@@ -328,7 +328,9 @@ align-items:center;
 
 .about-text-first span {
   font-size: 3em;
-   -webkit-text-stroke: 1px white;
+   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
    opacity: 0.5;
 }
 
@@ -366,14 +368,9 @@ align-items:center;
     transform: translate3d(50%, 50%, 0);
   }
 
-  30% {
+  50% {
     opacity: 1;
     transform: translate3d(-50px, -62px, -135px);
-  }
-
-  60% {
-    opacity: 1;
-    transform: translate3d(50%, 50%, 0);
   }
 
   to {
