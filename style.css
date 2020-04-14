@@ -64,7 +64,7 @@ a:hover {
 
 .main-content-about {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-areas: "content-about-img content-about-text";
   height: 65vh;
 }
 
