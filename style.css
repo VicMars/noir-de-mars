@@ -331,7 +331,6 @@ align-items:center;
    -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-   opacity: 0.5;
 }
 
 
@@ -375,7 +374,7 @@ align-items:center;
 
   to {
     opacity:0;
-    transform: translate3d(50%, -50%, 0);
+    transform: translate3d(0, -50%, 0);
   }
 }
 
