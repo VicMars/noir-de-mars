@@ -47,7 +47,7 @@ a:hover {
 
 .main-container {
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 12% 1fr 12%;
   width: 100vw;
   height: 65vh;
 }
@@ -281,12 +281,6 @@ align-items:center;
   font-family: "Playfair Display";
 }
 
-.content-about-img {
-  flex: 1;
-  align-self: center;
-  margin: 5%;
-}
-
 .content-about-img img{
   width:100%;
 }
@@ -311,8 +305,6 @@ align-items:center;
 /* Surface Design Page */
 
 .content-surface-text {
-  width:50vw;
-  padding-right:50px;
   word-wrap: break-word;
   align-self:center;
   animation-name: fadeIn;
@@ -347,7 +339,6 @@ align-items:center;
 .content-img {
   display: block;
   overflow-y: auto;
-  width: 50vw;
 }
 
 .content-img::-webkit-scrollbar {
