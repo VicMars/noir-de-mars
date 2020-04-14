@@ -322,6 +322,7 @@ align-items:center;
   }
   to {
     opacity:0;
+    transform: translate3d(-42px, 62px, 135px);
   }
 }
 
@@ -391,13 +392,6 @@ align-items:center;
 }
 
 
-
-input[type='checkbox'] {
-  display: none;
-}
-
-.lbl-toggle {
-  display: block;}
 
 
 
