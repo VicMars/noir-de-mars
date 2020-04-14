@@ -59,6 +59,7 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   height: 65vh;
+  margin: 5%;
 }
 
 
@@ -107,12 +108,15 @@ a:hover {
   border-bottom: 1px solid white;
 }
 
-
 #menu-left {
-  margin-left: 50px;
-  /*transform: rotate(-90deg);
+  align-self:center;
+}
+
+#menu-left p {
+  text-align: center;
   white-space: nowrap;
-  text-align:center;*/
+  border: 1px solid;
+  transform: rotate(-90deg);
 }
 
 
