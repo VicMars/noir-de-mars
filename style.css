@@ -356,15 +356,17 @@ align-items:center;
 @keyframes fadeInImg{
   from {
     opacity: 1;
+    transform: translate3d(0);
   }
 
   50% {
     opacity: 1;
-    transform: translate3d(-42px, 62px, 135px);
+    transform: translate3d(42px, -62px, -135px);
   }
 
   to {
     opacity:0;
+    transform: translate3d(0);
   }
 }
 
