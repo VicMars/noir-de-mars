@@ -323,22 +323,6 @@ align-items:center;
 
 /* Surface Design Page */
 
-.content-surface-design {
-  width:100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity:1;
-  }
-}
 .content-surface-text {
   width:50vw;
   padding-right:50px;
@@ -352,6 +336,14 @@ align-items:center;
 .content-surface-text p:nth-child(1) { animation-delay: 1s; }
 .content-surface-text p:nth-child(2) { animation-delay: -0.4s; }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
+}
 
 .letter {
   font-size: 3rem;
