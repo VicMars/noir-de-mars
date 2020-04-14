@@ -309,7 +309,7 @@ align-items:center;
 
 .content-about-text .about-text-first {
   display: grid;
-  grid-template-columns: 1fr 5%;
+  grid-template-columns: 60% 5%;
   width:100vw;}
 
 .content-about a {
@@ -336,6 +336,7 @@ align-items:center;
   animation-name:fadeInImg;
   animation-duration: 6s;
   opacity:0;
+  z-index:2;
 }
 
 @keyframes fadeInImg{
@@ -346,6 +347,7 @@ align-items:center;
   to {
     opacity:0;
     transform: translate3d(-42px, 62px, 135px);
+    display:none;
   }
 }
 
