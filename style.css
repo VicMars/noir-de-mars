@@ -366,9 +366,14 @@ align-items:center;
     transform: translate3d(50%, 50%, 0);
   }
 
-  50% {
+  30% {
     opacity: 1;
     transform: translate3d(-50px, -62px, -135px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(50%, 50%, 0);
   }
 
   to {
