@@ -323,6 +323,7 @@ align-items:center;
     text-align: center;
     font-size: 1.8rem;
     margin: 0 15%;
+    line-height:1.4;
 }
 
 .content-about a {
@@ -355,12 +356,15 @@ align-items:center;
 @keyframes fadeInImg{
   from {
     opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
     transform: translate3d(42px, -62px, -135px);
   }
+
   to {
     opacity:0;
-    transform: translate3d(-42px, 62px, 135px);
-    display:none;
   }
 }
 
