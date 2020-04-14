@@ -61,10 +61,10 @@ a:hover {
   height: 65vh;
 }
 
+
 .main-content-about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 50px;
+  grid-template-columns: 1fr;
   height: 65vh;
 }
 
@@ -285,9 +285,23 @@ align-items:center;
 
 /* About page */
 
-.content-about::-webkit-scrollbar {
+.content-about-text {
+    word-wrap: break-word;
+    align-self: center;
+    animation-name: fadeIn;
+    animation-duration: 6s;
+    transition-timing-function: linear;
+    overflow-x: auto;
+    display: inline-grid;
+    grid-template-columns: 1fr 5% 1fr;
+}
+
+.content-about-text::-webkit-scrollbar {
   display: none;
 }
+
+.content-about-text .div, .content-about-text p {
+  width:100vw;}
 
 .content-about a {
   font-size: 20px;
