@@ -293,14 +293,18 @@ align-items:center;
     transition-timing-function: linear;
     overflow-x: auto;
     display: inline-grid;
-    grid-template-columns: 1fr 5% 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .content-about-text::-webkit-scrollbar {
   display: none;
 }
+.content-about-text .about-text {
+  width:100vw;}
 
-.content-about-text .div, .content-about-text p {
+.content-about-text .about-text-first {
+  display: grid;
+  grid-template-columns: 1fr 5%;
   width:100vw;}
 
 .content-about a {
