@@ -145,7 +145,7 @@ a:hover {
   color:transparent;
 }
 
-#menu-bottom-left li i, #menu-bottom-left-home li i,{
+#menu-bottom-left li i, #menu-bottom-left-home li i {
 display:block;
 color:transparent;
 width: inherit;
