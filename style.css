@@ -64,7 +64,7 @@ a:hover {
 
 .main-content-about {
   display: grid;
-  grid-template-areas: "content-about-img content-about-text";
+  grid-template-areas: "main";
   height: 65vh;
 }
 
@@ -299,6 +299,11 @@ align-items:center;
 .content-about-text::-webkit-scrollbar {
   display: none;
 }
+
+.content-about-img, .content-about-text {
+  grid-area: main;
+}
+
 .content-about-text .about-text {
   width:100vw;}
 
