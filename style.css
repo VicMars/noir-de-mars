@@ -47,7 +47,7 @@ a:hover {
 
 .main-container {
   display: grid;
-  grid-template-columns: 12% 1fr 12%;
+  grid-template-columns: 15% 1fr 15%;
   width: 100vw;
   height: 65vh;
 }
@@ -59,7 +59,13 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   height: 65vh;
-  margin: 5%;
+}
+
+.main-content-about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+  height: 65vh;
 }
 
 
@@ -110,6 +116,8 @@ a:hover {
 
 #menu-left {
   align-self:center;
+  justify-self:left;
+  margin-left:50px;
 }
 
 #menu-left p {
@@ -284,8 +292,11 @@ align-items:center;
 
 .content-about-img img{
   height: 65vh;
-  padding: 5%;
   float:right;
+}
+
+.content-about-img {
+  margin: 0 auto;
 }
 
 /* Horizontal Scrolling Images */
