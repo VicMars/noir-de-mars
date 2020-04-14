@@ -21,7 +21,7 @@ a:hover {
   top: 0;
   left: 0;
   overflow: hidden;
-  background-color:#000;
+  background-color: rgba(0,0,0,0.95);
 }
 
 .main-index {
@@ -32,7 +32,7 @@ a:hover {
   left: 0;
   overflow: hidden;
   background-image: url("./images/Vicky_Andre--background.jpg");
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 @media (max-width: 968px) {
@@ -100,8 +100,13 @@ a:hover {
   color: white;
   margin: 0;
   padding: 0 0 0 30px;
-
 }
+
+#menu-top-right a:hover {
+  padding-bottom: 10px;
+  border: 1px solid white;
+}
+
 
 #menu-left {
   margin: 50px;
@@ -111,6 +116,10 @@ a:hover {
   text-align:center;
 }
 
+
+#menu-left a:hover{
+  border-bottom: 1px solid white;
+}
 
 #menu-right {
   margin: 50px;
@@ -151,7 +160,6 @@ text-align:center;
 margin-bottom:-20px;
 mix-blend-mode: difference;
 }
-
 
 #menu-bottom-right i {
   font-size: 0.6em;
