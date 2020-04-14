@@ -126,12 +126,12 @@ a:hover {
   width: 5vw;
 }
 
-#menu-bottom-left ul {
+#menu-bottom-left ul,  #menu-bottom-left-home ul{
   margin: 0;
   padding: 0;
 }
 
-#menu-bottom-left ul li {
+#menu-bottom-left ul li, #menu-bottom-left-home ul li {
   display: inline-block;
   list-style: none;
   padding-right: 15px;
@@ -139,11 +139,11 @@ a:hover {
   width: 125px;
 }
 
-#menu-bottom-left li a:hover {
+#menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
   color:transparent;
 }
 
-#menu-bottom-left li i{
+#menu-bottom-left li i, #menu-bottom-left-home li i,{
 display:block;
 color:transparent;
 width: inherit;
@@ -152,6 +152,16 @@ margin-bottom:-20px;
 }
 
 #menu-bottom-left li:hover i{
+color: #fff;
+font-size: 1.2em;
+display:block;
+width: inherit;
+text-align:center;
+margin-bottom:-20px;
+}
+
+
+#menu-bottom-left-home li:hover i{
 color: #fff;
 font-size: 1.2em;
 display:block;
