@@ -258,6 +258,7 @@ align-items:center;
 
 .content-about a {
   font-size: 20px;
+  font-weight: 600;
 }
 
 .content-about p {
@@ -265,6 +266,9 @@ align-items:center;
   font-weight:400;
 }
 
+.content-about h1{
+  font-family: "Playfair Display";
+}
 
 .content-about-img {
   flex: 1;
