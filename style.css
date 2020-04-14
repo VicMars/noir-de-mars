@@ -366,7 +366,7 @@ align-items:center;
 
   to {
     opacity:0;
-    transform: translate3d(50%, 50%, 0);
+    transform: translate3d(50%, 0, 0);
   }
 }
 
