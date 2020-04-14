@@ -68,6 +68,19 @@ a:hover {
   height: 65vh;
 }
 
+.main-content-web {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  column-gap: 50px;
+  height: 65vh;
+}
+
+.main-content-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 65vh;
+}
+
 
 .main-content-index {
   display: flex;
