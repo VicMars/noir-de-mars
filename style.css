@@ -331,7 +331,8 @@ align-items:center;
 
 .about-text h5 {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 100;
+  padding-top:20px;
 }
 
 
@@ -356,12 +357,11 @@ align-items:center;
   font-family: "Playfair Display";
 }
 
-.content-about-img img{
+.content-about-img {
   height: 65vh;
-  float:right;
 }
 
-.content-about-img {
+.content-about-img img{
   margin: 0 auto;
   animation-name:fadeInImg;
   animation-duration: 6s;
