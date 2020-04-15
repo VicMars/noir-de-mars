@@ -305,6 +305,7 @@ align-items:center;
 
 .content-about-text .about-text {
   width:70vw;
+  height:65vh;
   align-items: center;
   line-height:1.9;
   padding: 0 10%;
