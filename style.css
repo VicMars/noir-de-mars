@@ -311,6 +311,7 @@ align-items:center;
 .content-about-text .about-text {
   width:70vw;
   align-items: center;
+  padding: 0 5%;
 }
 
 .content-about-text .about-text-first {
