@@ -46,19 +46,38 @@ a:hover {
 }
 
 .main-container {
-  display: flex;
-  height:65vh;
-  justify-content: space-between;
-  align-items:center;
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  width: 100vw;
+  height: 65vh;
 }
 
 /* Content */
 
 .main-content {
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  height: 65vh;
+}
+
+
+.main-content-about {
+  display: grid;
+  grid-template-areas: "main";
+  height: 65vh;
+}
+
+.main-content-web {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  column-gap: 50px;
+  height: 65vh;
+}
+
+.main-content-contact {
+  display: grid;
+  grid-template-columns: 1fr;
   height: 65vh;
 }
 
@@ -94,7 +113,6 @@ a:hover {
   font-family: Playfair Display;
 }
 
-
 #menu-top-right ul li {
   display: inline;
   list-style: none;
@@ -108,13 +126,21 @@ a:hover {
   border-bottom: 1px solid white;
 }
 
+#menu-top-right i {
+  font-size: 0.6em;
+  line-height: 1;
+}
 
 #menu-left {
-  margin: 50px;
-  width: 5vw;
-  transform: rotate(-90deg);
+  align-self:center;
+  justify-self:left;
+  margin-left:50px;
+}
+
+#menu-left p {
+  text-align: center;
   white-space: nowrap;
-  text-align:center;
+  transform: rotate(-90deg);
 }
 
 
@@ -123,8 +149,7 @@ a:hover {
 }
 
 #menu-right {
-  margin: 50px;
-  width: 5vw;
+  margin-right: 50px;
 }
 
 #menu-bottom-left ul,  #menu-bottom-left-home ul{
@@ -144,7 +169,7 @@ a:hover {
   color:transparent;
 }
 
-#menu-bottom-left li i, #menu-bottom-left-home li i,{
+#menu-bottom-left li i, #menu-bottom-left-home li i {
 display:block;
 color:transparent;
 width: inherit;
@@ -180,7 +205,7 @@ mix-blend-mode: difference;
   line-height:2;
   mix-blend-mode:difference;
   animation-name: move;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
@@ -190,7 +215,7 @@ mix-blend-mode: difference;
   }
 
   to {
-    margin-left:0;
+    margin-left:15px;
   }
 }
 
@@ -264,21 +289,68 @@ align-items:center;
 
 /* About page */
 
-.main-content-about {
-    display: flex;
-    align-items:center;
-    width: 100%;
-    height: 65vh;
-    margin: 0 8%;
+.content-about-text {
+    word-wrap: break-word;
+    align-self: center;
+    animation-name: fadeIn;
+    animation-duration: 6s;
+    transition-timing-function: linear;
+    height:65vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
-.content-about {
-  flex: 2;
-  overflow: auto;
-}
-
-.content-about::-webkit-scrollbar {
+.content-about-text::-webkit-scrollbar {
   display: none;
+}
+
+.content-about-img, .content-about-text {
+  grid-area: main;
+}
+
+.content-about-text .about-text {
+  width:70vw;
+  height:65vh;
+  display:grid;
+  align-content: center;
+  line-height:1.9;
+  padding: 0 10%;
+}
+
+.about-text h1 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 15%;
+  line-height:1.4;
+}
+
+.about-text h5 {
+  font-size: 3em;
+  font-weight: 100;
+  text-align:center;
+  line-height:2;
+}
+
+.about-text h5:hover {
+letter-spacing: 6px;
+}
+
+.about-text span {
+  font-size: 2em;
+   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.text-style {
+  border-bottom: 1px solid white;
+}
+
+.text-style:hover {
+  padding-bottom:0;
+  border-bottom: 0;
 }
 
 .content-about a {
@@ -296,13 +368,32 @@ align-items:center;
 }
 
 .content-about-img {
-  flex: 1;
-  align-self: center;
-  margin: 5%;
+  height: 65vh;
 }
 
 .content-about-img img{
-  width:100%;
+  height: 65vh;
+  margin: 0 auto;
+  animation-name:fadeInImg;
+  animation-duration: 6s;
+  opacity:0;
+}
+
+@keyframes fadeInImg{
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate3d(100px, -80px, -135px);
+  }
+
+  to {
+    opacity:0;
+    transform: translate3d(-50px, -200px, 0);
+  }
 }
 
 /* Horizontal Scrolling Images */
@@ -324,18 +415,20 @@ align-items:center;
 
 /* Surface Design Page */
 
-.content-surface-text {
-  width:50vw;
-  padding-right:50px;
+.content-text {
+  height:65vh;
+  display:grid;
+  align-content: center;
+  line-height:1.9;
+  padding: 0 10%;
   word-wrap: break-word;
-  align-self:center;
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
 }
 
-.content-surface-text p:nth-child(1) { animation-delay: 1s; }
-.content-surface-text p:nth-child(2) { animation-delay: -0.4s; }
+.content-text p:nth-child(1) { animation-delay: 1s; }
+.content-text p:nth-child(2) { animation-delay: -0.4s; }
 
 @keyframes fadeIn {
   from {
@@ -356,23 +449,157 @@ align-items:center;
 
 
 
-/* Vertical Scrolling Images */
-
 .content-img {
-  display: block;
-  overflow-y: auto;
-  width: 50vw;
+  height:65vh;
+  position:relative;
 }
 
-.content-img::-webkit-scrollbar {
-  display: none;
+.content-img img{
+position:absolute;
+animation-name: imgMove;
+animation-duration:18s;
+animation-iteration-count:infinite;
+animation-delay:15s;
 }
+
+@-webkit-keyframes imgMove {
+  from {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 1000px);
+    transform: translate(0, 1000px);
+  }
+}
+
 
 .content-img img {
-  max-width: 100%;
-  margin-bottom: 25px;
+  height:100%;
 }
 
+.content-img img:nth-child(2) { animation-delay: 6s;  }
+.content-img img:nth-child(3) { animation-delay: 12s; }
+
+
+
+
+////////////////////////////////////////////////////////
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>The multidisciplinary portfolio of Vicky Andre</title>
+  <meta name="description" content="A creative mind with many skills.">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;500;800;900&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+<div class="main">
+
+  <div id="menu-top">
+
+      <div id="menu-top-left">
+        <h1><a href="index.html">V.</a></h1>
+      </div>
+
+      <div id="menu-top-right">
+        <ul>
+          <li><a href="surface_design.html" class="current">Surface Design</a></li>
+          <li><a href="web_design.html">Web Design</a></li>
+        </ul>
+      </div>
+
+  </div>
+
+  <div class="main-container">
+
+    <div id="menu-left">
+      <p><a href="about.html">About</a></p>
+    </div>
+
+    <div class="main-content">
+
+        <div class="content-text">
+          <p style="text-align:left">
+          <span class="letter">I</span> love simplicity and exuberance.<br>
+          I love paradox and contradiction.<br>
+          And I love the strength and the minimalism of the color black.
+          </p>
+
+          <p style="text-align:right">
+          It is in this organized chaos,
+          that I find creativity.
+          Always eager to discover and in a perpetual admiration of the creative
+          world that surrounds me, my approach to design is motivated by the need
+          to imagine new possibilities and new concepts.
+          </p>
+        </div>
+
+        <div class="content-img">
+          <img src="./images/Vicky_André_Notebooks-Archipel.jpg">
+          <img src="./images/Vicky_André_Textile_design.jpg" >
+          <img src="./images/Vicky_André_Tote_ctstudio.gif">
+        </div>
+
+    </div>
+
+      <div id="menu-right">
+      </div>
+
+    </div>
+
+     <div id="menu-bottom">
+
+      <div id="menu-bottom-left">
+        <ul>
+          <li>
+            <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/v.ickyandre/" target="_blank">Playground</a>
+          </li>
+          <li>
+            <i class="fab fa-tumblr"></i>
+            <a href="https://noir-de-mars.tumblr.com/" target="_blank">Obsession</a>
+          </li>
+          <li>
+            <i class="fab fa-linkedin-in"></i>
+            <a href="www.linkedin.com/in/vicky-andre" target="_blank">Experiences</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="menu-bottom-right">
+        <i class="fas fa-circle"></i>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
 
 
 

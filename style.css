@@ -62,7 +62,7 @@ a:hover {
 }
 
 
-.main-content-about {
+.main-content {
   display: grid;
   grid-template-areas: "main";
   height: 65vh;
@@ -417,7 +417,7 @@ letter-spacing: 6px;
 
 .content-text {
   height:65vh;
-  display:grid;
+  grid-area: main;
   align-content: center;
   line-height:1.9;
   padding: 0 10%;
@@ -439,26 +439,18 @@ letter-spacing: 6px;
   }
 }
 
-.letter {
-  font-size: 3rem;
-  font-family: "Playfair Display";
-  font-style: italic;
-  margin:0;
-  line-height:1;
-}
-
-
-
 .content-img {
   height:65vh;
-  position:relative;
+  grid-area: main;
 }
 
 .content-img img{
+height:100%;
 position:absolute;
 animation-name: imgMove;
 animation-duration:18s;
 animation-iteration-count:infinite;
+animation-delay:15s;
 }
 
 @-webkit-keyframes imgMove {
@@ -475,12 +467,11 @@ animation-iteration-count:infinite;
   }
 }
 
-.content-img img {
-  height:100%;
-}
 
-.content-img img:nth-child(2) { animation-delay: 6s; }
+.content-img img:nth-child(2) { animation-delay: 6s;  }
 .content-img img:nth-child(3) { animation-delay: 12s; }
+
+
 
 
 
