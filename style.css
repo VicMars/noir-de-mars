@@ -127,7 +127,8 @@ a:hover {
 }
 
 #menu-top-right i {
-  font-size: 1.2em;
+  font-size: 0.6em;
+  line-height: 1;
 }
 
 #menu-left {
@@ -415,8 +416,12 @@ letter-spacing: 6px;
 /* Surface Design Page */
 
 .content-text {
+  height:65vh;
+  display:grid;
+  align-content: center;
+  line-height:1.9;
+  padding: 0 10%;
   word-wrap: break-word;
-  align-self:center;
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
@@ -444,40 +449,37 @@ letter-spacing: 6px;
 
 
 
-/* Vertical Scrolling Images */
-
 .content-img {
-  -webkit-transform-origin: 50% 300%;
-  transform-origin: 50% 300%;
-  -webkit-animation: imgMove 0.5s forwards;
-  animation: imgMove 0.5s forwards;
+  height:65vh;
+  position:relative;
+}
+
+.content-img img{
+position:absolute;
+animation-name: imgMove;
+animation-duration:18s;
+animation-iteration-count:infinite;
 }
 
 @-webkit-keyframes imgMove {
+  from {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 500px);
+    transform: translate(0, 500px);
+  }
+
   to {
     opacity: 0;
-    -webkit-transform: rotate3d(0, 0, 1, 20deg);
-    transform: rotate3d(0, 0, 1, 20deg);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
   }
 }
-
-@keyframes imgMove {
-  to {
-    opacity: 0;
-    -webkit-transform: rotate3d(0, 0, 1, 20deg);
-    transform: rotate3d(0, 0, 1, 20deg);
-  }
-}
-
-
-.content-img::-webkit-scrollbar {
-  display: none;
-}
-
-.content-img img {
-  max-height:65vh;
-}
-
 
 
 
