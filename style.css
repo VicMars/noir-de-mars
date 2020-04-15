@@ -361,7 +361,6 @@ align-items:center;
 .content-about-img {
   margin: 0 auto;
   animation-name:fadeInImg;
-  animation-delay:3s;
   animation-duration: 6s;
   opacity:0;
   z-index:2;
@@ -380,7 +379,7 @@ align-items:center;
 
   50% {
     opacity: 1;
-    transform: translate3d(50%, 25%, -25%);
+    transform: translate3d(50%, -25%, -25%);
   }
 
   to {
