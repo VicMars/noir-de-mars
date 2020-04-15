@@ -370,7 +370,7 @@ align-items:center;
 
   50% {
     opacity: 1;
-    transform: translate3d(42px, -62px, -135px);
+    transform: translate3d(50px, -80px, -135px);
   }
 
   to {
