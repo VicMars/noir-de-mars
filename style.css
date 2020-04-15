@@ -332,6 +332,7 @@ align-items:center;
 .about-text h5 {
   font-size: 1em;
   font-weight: 100;
+  text-align:center;
   padding-top:20px;
 }
 
@@ -362,6 +363,7 @@ align-items:center;
 }
 
 .content-about-img img{
+  height: 65vh;
   margin: 0 auto;
   animation-name:fadeInImg;
   animation-duration: 6s;
