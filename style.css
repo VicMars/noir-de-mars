@@ -330,15 +330,23 @@ align-items:center;
 }
 
 .about-text h5:hover {
-letter-spacing: 6px;}
-
-
+letter-spacing: 6px;
+}
 
 .about-text span {
   font-size: 2em;
    -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+}
+
+.text-style {
+  border-bottom: 1px solid white;
+}
+
+.text-style:hover {
+  padding-bottom:0;
+  border-bottom: 0;
 }
 
 .content-about a {
