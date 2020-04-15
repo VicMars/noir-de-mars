@@ -360,8 +360,9 @@ align-items:center;
 .content-about-img {
   margin: 0 auto;
   animation-name:fadeInImg;
+  animation-delay:6s;
   animation-duration: 6s;
-  opacity:0;
+  opacity:1;
   z-index:2;
 }
 
