@@ -291,8 +291,7 @@ align-items:center;
     animation-name: fadeIn;
     animation-duration: 6s;
     transition-timing-function: linear;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    height:65vh;
     scroll-behavior: smooth;
 }
 
