@@ -430,7 +430,6 @@ letter-spacing: 6px;
 
 .content-img img{
 height:65vh;
-position:absolute;
 animation-name: imgMove;
 animation-duration:18s;
 animation-iteration-count:infinite;
