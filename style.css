@@ -113,7 +113,6 @@ a:hover {
   font-family: Playfair Display;
 }
 
-
 #menu-top-right ul li {
   display: inline;
   list-style: none;
@@ -125,6 +124,10 @@ a:hover {
 #menu-top-right a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
+}
+
+#menu-top-right i {
+  font-size: 1.2em;
 }
 
 #menu-left {
