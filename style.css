@@ -201,7 +201,7 @@ mix-blend-mode: difference;
   line-height:2;
   mix-blend-mode:difference;
   animation-name: move;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
@@ -211,7 +211,7 @@ mix-blend-mode: difference;
   }
 
   to {
-    margin-left:0;
+    margin-left:15px;
   }
 }
 
@@ -308,6 +308,7 @@ align-items:center;
 .content-about-text .about-text {
   width:70vw;
   align-items: center;
+  line-height:1.9;
   padding: 0 10%;
 }
 
@@ -375,7 +376,7 @@ align-items:center;
 
   to {
     opacity:0;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, -200px, 0);
   }
 }
 
