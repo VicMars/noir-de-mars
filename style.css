@@ -14,6 +14,11 @@ a:hover {
   padding-bottom: 10px;
 }
 
+p {
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -60,7 +65,7 @@ a:hover {
   height: 65vh;
 }
 
-.content-about-img, .content-about-text, .context-text, .content-img {
+.content-about-img, .content-about-text, .content-text, .content-img {
   grid-area: main;
   height: 65vh;
 }
@@ -300,7 +305,6 @@ align-items:center;
   display: none;
 }
 
-
 .content-about-text .about-text {
   width:70vw;
   height:65vh;
@@ -327,12 +331,12 @@ align-items:center;
 }
 
 .about-text h5:hover {
-letter-spacing: 6px;
+  letter-spacing: 6px;
 }
 
 .about-text span {
   font-size: 2em;
-   -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
@@ -345,21 +349,6 @@ letter-spacing: 6px;
   padding-bottom:0;
   border-bottom: 0;
 }
-
-.content-about a {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.content-about p {
-  font-size: 1rem;
-  font-weight:400;
-}
-
-.content-about h1{
-  font-family: "Playfair Display";
-}
-
 
 .content-about-img img{
   height: 65vh;
@@ -436,7 +425,7 @@ animation-iteration-count:infinite;
 animation-delay:15s;
 }
 
-@-webkit-keyframes imgMove {
+/*@-webkit-keyframes imgMove {
   from {
     opacity: 1;
     -webkit-transform: translate(0, 0);
@@ -452,7 +441,7 @@ animation-delay:15s;
 
 
 .content-img img:nth-child(2) { animation-delay: 6s;  }
-.content-img img:nth-child(3) { animation-delay: 12s; }
+.content-img img:nth-child(3) { animation-delay: 12s; }*/
 
 
 
