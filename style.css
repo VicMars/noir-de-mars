@@ -312,15 +312,15 @@ align-items:center;
   padding: 0 10%;
 }
 
-.content-about-text .about-text-first {
+/*.content-about-text .about-text-first {
   display: grid;
   grid-template-columns: 95% 5%;
   width:70vw;
   align-items: center;
   padding: 0 5%;
-}
+}*/
 
-.about-text-first h1 {
+.about-text h1 {
   font-weight: bolder;
   letter-spacing: 2px;
   text-align: center;
@@ -329,7 +329,13 @@ align-items:center;
   line-height:1.4;
 }
 
-.about-text-first span {
+.about-text h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+.about-text span {
   font-size: 2em;
    -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
