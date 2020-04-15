@@ -56,15 +56,12 @@ a:hover {
 
 .main-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 50px;
+  grid-template-areas: "main";
   height: 65vh;
 }
 
-
-.main-content {
-  display: grid;
-  grid-template-areas: "main";
+.content-about-img, .content-about-text, .context-text, .content-img {
+  grid-area: main;
   height: 65vh;
 }
 
@@ -295,7 +292,6 @@ align-items:center;
     animation-name: fadeIn;
     animation-duration: 6s;
     transition-timing-function: linear;
-    height:65vh;
     overflow-y: auto;
     scroll-behavior: smooth;
 }
@@ -304,9 +300,6 @@ align-items:center;
   display: none;
 }
 
-.content-about-img, .content-about-text {
-  grid-area: main;
-}
 
 .content-about-text .about-text {
   width:70vw;
@@ -367,9 +360,6 @@ letter-spacing: 6px;
   font-family: "Playfair Display";
 }
 
-.content-about-img {
-  height: 65vh;
-}
 
 .content-about-img img{
   height: 65vh;
@@ -416,9 +406,6 @@ letter-spacing: 6px;
 /* Surface Design Page */
 
 .content-text {
-  height:65vh;
-  grid-area: main;
-  align-content: center;
   line-height:1.9;
   padding: 0 10%;
   word-wrap: break-word;
