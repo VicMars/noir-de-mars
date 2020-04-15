@@ -307,18 +307,11 @@ align-items:center;
 .content-about-text .about-text {
   width:70vw;
   height:65vh;
-  align-items: center;
+  display:grid;
+  align-content: center;
   line-height:1.9;
   padding: 0 10%;
 }
-
-/*.content-about-text .about-text-first {
-  display: grid;
-  grid-template-columns: 95% 5%;
-  width:70vw;
-  align-items: center;
-  padding: 0 5%;
-}*/
 
 .about-text h1 {
   font-weight: bolder;
@@ -334,6 +327,11 @@ align-items:center;
   font-weight: 100;
   text-align:center;
   padding-top:25px;
+}
+
+.about-text a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
 
 
