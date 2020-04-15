@@ -375,7 +375,12 @@ align-items:center;
 
   50% {
     opacity: 1;
-    transform: translate3d(50%, -25%, -50%);
+    transform: translate3d(42px, -62px, -135px);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 
   to {
