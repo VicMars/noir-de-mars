@@ -292,6 +292,7 @@ align-items:center;
     animation-duration: 6s;
     transition-timing-function: linear;
     height:65vh;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 
