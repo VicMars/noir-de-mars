@@ -296,7 +296,7 @@ align-items:center;
 
 /* About page */
 
-.content-about-text {
+.about-text {
     word-wrap: break-word;
     align-self: center;
     animation-name: fadeIn;
@@ -306,15 +306,15 @@ align-items:center;
     scroll-behavior: smooth;
 }
 
-.content-about-text::-webkit-scrollbar {
+.cabout-text::-webkit-scrollbar {
   display: none;
 }
 
 
-.content-about-text .about-text {
+.about-text {
   width:70vw;
   height:65vh;
-  display:grid;
+  grid-area: main;
   align-content: center;
   line-height:1.9;
   padding: 0 10%;
