@@ -403,6 +403,18 @@ align-items:center;
   grid-gap: 20px;
 }
 
+.content-img img {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+
+.content-img img:hover {
+  background-image: url("./images/Vicky_Andre--background.jpg");
+  top:0;
+  left: 25%;
+}
 
 
 
