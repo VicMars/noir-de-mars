@@ -430,8 +430,20 @@ align-items:center;
 .content-img img:nth-child(4) { animation-delay: 9s; z-index:-; top: 24%; left: 40%; transform: translate3d(0px, -1px, 0px);}
 
 
+.crop-img {
+  width: 70px;
+}
 
+.crop-lrg-img {
+  width: 300px;
+}
 
+.main-content-design {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: "main";
+  height: 65vh;
+}
 
 
 
