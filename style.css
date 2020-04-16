@@ -65,7 +65,7 @@ p {
   height: 65vh;
 }
 
-.content-about-img, .content-about-text, .content-text, .content-img {
+.content-about-img, .content-about-text, .content-text {
   grid-area: main;
   height: 65vh;
 }
@@ -73,6 +73,13 @@ p {
 .main-content-web {
   display: grid;
   grid-template-columns: 20% 1fr;
+  column-gap: 50px;
+  height: 65vh;
+}
+
+.main-content-design {
+  display: grid;
+  grid-template-columns: 30% 70%;
   column-gap: 50px;
   height: 65vh;
 }
@@ -390,77 +397,11 @@ align-items:center;
 }
 
 
-/* Surface Design Page */
-
-/*.content-img {
-  margin: 0 auto;
-}
-
-.content-img img{
-position:absolute;
-left:40%;
-height:65vh;
-animation-name: imgMove;
-animation-duration:10s;
-animation-delay:20s;
-}
-
-@-webkit-keyframes imgMove {
-  from {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, -1000px);
-    transform: translate(0, -1000px);
-  }
-}
-
-
-.content-img img:nth-child(1) { transform: translate(0, 0);}
-.content-img img:nth-child(2) { animation-delay: 3s;  transform: translate(0, 0);}
-.content-img img:nth-child(3) { animation-delay: 6s; transform: translate(0, 0);}*/
-
-
-
-
-
-
 .content-img {
-  /* margin: 0 auto; */
-  position: fixed;
-  /* top: 0; */
-  /* left: 0; */
-  height: 65vh;
-  width: 70vw;
-  border: 1px solid blue;
-
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
-
-.content-img img{
-  position:inherit;
-  height:65vh;
-  animation-name: imgMove;
-  animation-duration:10s;
-  animation-delay:5s;
-  animation-iteration-count: 1;
-  transform: translate3d(0px, 0px, 0px);}
-
-@-webkit-keyframes imgMove {
-  to {
-   transform: translate3d(0px, -1000px, 0px);
-  }
-}
-
-
-.content-img img:nth-child(1) { animation-delay: 6s; top:15%; z-index:1; transform: translate3d(0px, 0px, 0px);}
-.content-img img:nth-child(2) { animation-delay: 7s; top: 16%; left: 47%; transform: translate3d(0px, 0px, 0px);}
-.content-img img:nth-child(3) { animation-delay: 8s; top: 30%; left: 65%; transform: translate3d(0px, 0px, 0px);}
-.content-img img:nth-child(4) { animation-delay: 9s; top: 20%; left: 26%; transform: translate3d(0px, -1px, 0px);}
-.content-img img:nth-child(5) { animation-delay: 10s; left:40%; transform: translate3d(0px, 0px, 0px);}
 
 
 
