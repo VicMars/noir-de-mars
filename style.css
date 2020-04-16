@@ -65,7 +65,7 @@ p {
   height: 65vh;
 }
 
-.content-about-img, .content-about-text, .content-text {
+.content-about-img, .content-about-text, .content-text, .content-img {
   grid-area: main;
   height: 65vh;
 }
@@ -396,80 +396,43 @@ align-items:center;
   display: none;
 }
 
-
-
-
-.content-img img {
-  position:absolute;
-  width:auto;
-  top:0;
-  left:0;
-}
-
-
-.content-img img:hover {
-  background-image: url("./images/Vicky_Andre--background.jpg");
-  top:0;
-  left: 25%;
-}
-
-
-
-.main-content-design {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  height: 65vh;
-  border:1px solid blue;
-}
-
-
-.content-design-text {
-    word-wrap: break-word;
-    align-content: center;
-    animation-name: fadeIn;
-    animation-duration: 6s;
-    transition-timing-function: linear;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    border:1px solid red;
-}
-
-.content-design-text::-webkit-scrollbar {
-  display: none;
-}
-
-.content-design-text .design-text {
-  height:65vh;
-  display:grid;
-  align-self: center;
-  line-height:1.9;
-  padding: 0;
-}
-
 .content-img {
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border: 1px solid yellow;
-  width: 20vw;
+  /* margin: 0 auto; */
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  height: 65vh;
+  width: 70vw;
+  border: 1px solid blue;
+
+}
+
+.content-img img{
+  position:inherit;
+  height:65vh;
+  animation-name: imgMove;
+  animation-duration:10s;
+  animation-delay:5s;
+  animation-iteration-count: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+@-webkit-keyframes imgMove {
+  to {
+   transform: translate3d(0px, -1000px, 0px);
   }
-
-.design-text h1 {
-  font-weight: bolder;
-  letter-spacing: 2px;
-  text-align: center;
-  font-size: 1.8rem;
-  margin: 0 12%;
-  line-height:1.4;
 }
 
-.design-text h5 {
-  font-size: 3em;
-  font-weight: 100;
-  text-align:center;
-  line-height:2;
-}
 
-.design-text h5:hover {
-  letter-spacing: 6px;
-}
+.content-img img:nth-child(1) { animation-delay: 6s; top:15%; z-index:1; transform: translate3d(0px, 0px, 0px);}
+.content-img img:nth-child(2) { animation-delay: 7s; top: 16%; left: 47%; transform: translate3d(0px, 0px, 0px);}
+.content-img img:nth-child(3) { animation-delay: 8s; top: 30%; left: 65%; transform: translate3d(0px, 0px, 0px);}
+.content-img img:nth-child(4) { animation-delay: 9s; top: 20%; left: 26%; transform: translate3d(0px, -1px, 0px);}
+.content-img img:nth-child(5) { animation-delay: 10s; left:40%; transform: translate3d(0px, 0px, 0px);}
+
+
+
+
+
+
 
