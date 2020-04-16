@@ -445,5 +445,9 @@ align-items:center;
   height: 65vh;
 }
 
+.main-content-design .about-text {
+  grid-area: main;
+  height: 65vh;
+}
 
 
