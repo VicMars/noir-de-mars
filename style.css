@@ -310,9 +310,6 @@ align-items:center;
   display: none;
 }
 
-.content-about-img, .content-about-text {
-  grid-area: main;
-}
 
 .content-about-text .about-text {
   width:70vw;
