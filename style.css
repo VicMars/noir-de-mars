@@ -413,10 +413,16 @@ align-items:center;
   align-self:center;
 }
 
+.content-design-two {
+  display: grid;
+  align-content:center;
+  height: 65vh;
+}
+
 .content-design-img {
   display: grid;
   width: 60%;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   height:65vh;
   align-items:center;
 }
@@ -438,7 +444,7 @@ align-items:center;
 .content-design-img img{
   animation-name: imgMove;
   animation-duration:8s;
-  animation-delay:5s;
+  animation-delay:4s;
   animation-iteration-count: 1;
 }
 
@@ -448,13 +454,10 @@ align-items:center;
   }
 }
 
-
-.content-design-img img:nth-child(1) { animation-delay: 6s; z-index:1;}
-.content-design-img img:nth-child(2) { animation-delay: 7s; }
-.content-design-img img:nth-child(3) {animation-delay: 8s; }
-.content-design-img img:nth-child(4) { animation-delay: 9s; z-index:-2;}
-
-
+.content-design-img img:nth-child(1) { animation-delay: 5s; z-index:4;}
+.content-design-img img:nth-child(2) { animation-delay: 6s; z-index:3;}
+.content-design-img img:nth-child(3) {animation-delay: 7s;z-index:2; }
+.content-design-img img:nth-child(4) { animation-delay: 8s; z-index:1;}
 
 .content-design-text h1 {
   font-weight: bolder;
@@ -475,7 +478,6 @@ align-items:center;
 .content-design-text h5:hover {
   letter-spacing: 6px;
 }
-
 
 
 
