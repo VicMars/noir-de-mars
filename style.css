@@ -48,6 +48,7 @@ p {
 }
 
 .main-index a {
+  color:#fff;
   mix-blend-mode:difference;
 }
 
@@ -116,7 +117,7 @@ p {
 #menu-top-right ul li {
   display: inline;
   list-style: none;
-  color: white;
+  color: #fff;
   margin: 0;
   padding: 0 0 0 20px;
 }
@@ -160,7 +161,7 @@ p {
   display: inline-block;
   list-style: none;
   padding-right: 15px;
-  color: white;
+  color: #fff;
   width: 125px;
 }
 
@@ -466,10 +467,13 @@ align-items:center;
 
 .content-design-web {
   display: grid;
-  width: 60%;
   height:70vh;
   align-items:center;
   overflow-x: auto;
+}
+
+.content-design-web img {
+  max-height: 70vh;
 }
 
 
@@ -489,7 +493,6 @@ align-items:center;
   font-weight:bolder;
   letter-spacing: 5px;
 }
-
 
 .content-contact a {
   text-align:center;
