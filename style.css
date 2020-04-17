@@ -475,7 +475,6 @@ align-items:center;
   grid-template-columns: 1fr 1fr;
 }
 
-
 .content-design-img img {
   height:65vh;
 }
@@ -489,6 +488,16 @@ align-items:center;
   line-height:1.4;
 }
 
+.content-design-one h5 {
+  font-size: 3em;
+  font-weight: 100;
+  text-align:center;
+  line-height:2;
+}
+
+.content-design-one h5:hover {
+  letter-spacing: 6px;
+}
 
 
 
