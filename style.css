@@ -452,11 +452,9 @@ align-items:center;
 
 .main-content-design {
   display: grid;
-  grid-template-columns:2fr 1fr;
   grid-template-areas: "second";
-  width:70vw;
   height: 65vh;
-  overflow: auto;
+}
 }
 
 .content-design-text {
