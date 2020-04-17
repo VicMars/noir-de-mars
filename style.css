@@ -114,6 +114,7 @@ p {
   display: inline;
   list-style: none;
   color: #fff;
+  mix-blend-mode: difference;
   margin: 0;
   padding: 0 0 0 20px;
 }
@@ -159,15 +160,18 @@ p {
   padding-right: 15px;
   color: #fff;
   width: 125px;
+  mix-blend-mode: difference;
 }
 
 #menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
   color:transparent;
 }
 
+
+
 #menu-bottom-left li i, #menu-bottom-left-home li i {
 display:block;
-color:transparent;
+color: transparent;
 width: inherit;
 text-align:center;
 margin-bottom:-20px;
@@ -195,6 +199,7 @@ mix-blend-mode: difference;
 
 
 #menu-bottom-right i {
+  color: #fff;
   font-size: 0.6em;
   display:block;
   text-align:center;
