@@ -392,7 +392,7 @@ align-items:center;
 }
 
 
-.content-img {
+/*.content-img {
   text-align:center;
   position: fixed;
   height: 65vh;
@@ -448,7 +448,7 @@ align-items:center;
   border: 1px solid yellow;
 }
 
-
+*/
 
 .main-content-design {
   display: grid;
