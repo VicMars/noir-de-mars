@@ -452,8 +452,32 @@ align-items:center;
 
 .main-content-design {
   display: grid;
-  grid-template-columns: 30% 70%;
-  column-gap: 50px;
+  grid-template-columns:2fr 1fr;
+  grid-template-areas: "second";
+  width:70vw;
   height: 65vh;
+  overflow: auto;
 }
+
+.content-design-text {
+  width:70vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.content-design-text .content-design-one {
+  border: 3px solid yellow;
+}
+
+.content-design-text .content-design-img {
+  width:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.content-design-img img {
+  height:65vh;
+}
+
 
