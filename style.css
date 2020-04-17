@@ -456,7 +456,22 @@ align-items:center;
   letter-spacing: 6px;
 }
 
+/* CONTACT */
 
+.content-contact {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  overflow: hidden;
+}
+
+.content-contact h2 {
+  position:relative;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight:bolder;
+  letter-spacing: 5px;
+}
 
 
 
