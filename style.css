@@ -98,6 +98,7 @@ p {
   align-items:center;
   height:15vh;
   margin: 0 4%;
+  mix-blend-mode:difference;
 }
 
 #menu-bottom {
@@ -133,6 +134,8 @@ p {
   align-self:center;
   justify-self:left;
   margin-left:50px;
+  color: #fff;
+  mix-blend-mode:difference;
 }
 
 #menu-left p {
@@ -164,9 +167,8 @@ p {
 }
 
 #menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
-  color:transparent;
+  color: transparent;
 }
-
 
 
 #menu-bottom-left li i, #menu-bottom-left-home li i {
@@ -243,6 +245,7 @@ mix-blend-mode: difference;
   letter-spacing:3px;
   text-align:center;
   color: #fff;
+  mix-blend-mode: difference;
 }
 
 .letter-name {
@@ -253,15 +256,15 @@ mix-blend-mode: difference;
 
 @keyframes animation-letter {
   from {
-
     width: 0%;
     margin-right:-100px;
+    mix-blend-mode: unset;
   }
 
   to {
-
     width: 100%;
     margin-right:0;
+    mix-blend-mode: unset;
   }
 }
 
