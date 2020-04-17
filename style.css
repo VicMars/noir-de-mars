@@ -455,29 +455,29 @@ align-items:center;
   grid-template-areas: "second";
   height: 65vh;
 }
-}
 
-.content-design-text {
+
+.content-design-one {
   width:70vw;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.content-design-text .content-design-one {
+.content-design-text .content-design-text {
   border: 3px solid yellow;
 }
 
 .content-design-text .content-design-img {
-  width:100%;
+  /*width:100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;*/
 }
 
 .content-design-img img {
   height:65vh;
 }
 
-.content-design-one h1 {
+.content-design-text h1 {
   font-weight: bolder;
   letter-spacing: 2px;
   text-align: center;
@@ -486,14 +486,14 @@ align-items:center;
   line-height:1.4;
 }
 
-.content-design-one h5 {
+.content-design-text h5 {
   font-size: 3em;
   font-weight: 100;
   text-align:center;
   line-height:2;
 }
 
-.content-design-one h5:hover {
+.content-design-text h5:hover {
   letter-spacing: 6px;
 }
 
