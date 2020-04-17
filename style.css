@@ -77,12 +77,6 @@ p {
   height: 65vh;
 }
 
-.main-content-design {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  column-gap: 50px;
-  height: 65vh;
-}
 
 .main-content-contact {
   display: grid;
@@ -454,4 +448,12 @@ align-items:center;
   border: 1px solid yellow;
 }
 
+
+
+.main-content-design {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 50px;
+  height: 65vh;
+}
 
