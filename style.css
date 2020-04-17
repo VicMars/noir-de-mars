@@ -6,6 +6,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  padding-bottom: 10px;
 }
 
 a:hover {
@@ -36,7 +37,7 @@ p {
   top: 0;
   left: 0;
   overflow: hidden;
-  background-image: url("./images/Vicky_Andre--background.jpg");
+  background-image: url("./images/Vicky_Andre-background.jpg");
   opacity: 0.95;
 }
 
@@ -368,10 +369,10 @@ align-items:center;
   }
 }
 
+/* Designer/Developer Page */
 
 .main-content-design {
   display: grid;
-  grid-template-areas: "second";
   width:70vw;
   height: 70vh;
   overflow: auto;
@@ -403,6 +404,11 @@ align-items:center;
   grid-template-columns: 50% 50%;
   height:70vh;
   align-items:center;
+}
+
+.content-design-img img:hover {
+  transform: translate(-15px, -15px);
+  transition: 2s;
 }
 
 .content-design-img img:nth-child(1), .content-design-img img:nth-child(3) {
@@ -441,9 +447,10 @@ align-items:center;
   font-weight: bolder;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-right: 2%;
-  line-height:1.4;
+  line-height:1.6;
+  text-transform: uppercase;
 }
 
 .content-design-text h5 {
@@ -456,6 +463,17 @@ align-items:center;
   letter-spacing: 6px;
 }
 
+
+.content-design-web {
+  display: grid;
+  width: 60%;
+  height:70vh;
+  align-items:center;
+  overflow-x: auto;
+}
+
+
+
 /* CONTACT */
 
 .content-contact {
@@ -466,11 +484,16 @@ align-items:center;
 }
 
 .content-contact h2 {
-  position:relative;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   font-weight:bolder;
   letter-spacing: 5px;
+}
+
+
+.content-contact a {
+  text-align:center;
+  font-size: 1.3rem;
 }
 
 
