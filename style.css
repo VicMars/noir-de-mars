@@ -112,6 +112,11 @@ p {
   margin: 0 4%;
 }
 
+#menu-bottom {
+  position:relative;
+  bottom:0;
+}
+
 #menu-top-left {
   font-family: Playfair Display;
 }
@@ -121,7 +126,7 @@ p {
   list-style: none;
   color: white;
   margin: 0;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 20px;
 }
 
 #menu-top-right a:hover {
