@@ -438,16 +438,20 @@ align-items:center;
   width: 300px;
 }
 
-.main-content-design {
+
+.content-design-text {
   display: grid;
   grid-template-columns: 75% 25%;
-  grid-template-areas: "main";
+  grid-area: main;
   height: 65vh;
 }
 
-.main-content-design .about-text {
-  grid-area: main;
-  height: 65vh;
+.content-design-text .about-text-one {
+  border: 1px solid red;
+}
+
+.content-design-text .content-img {
+  border: 1px solid yellow;
 }
 
 
