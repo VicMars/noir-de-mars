@@ -241,7 +241,8 @@ mix-blend-mode: difference;
   font-family: Playfair Display;
   letter-spacing:3px;
   text-align:center;
-  color: #000;
+  color: #fff;
+  mix-blend-mode:difference;
 }
 
 .letter-name {
@@ -271,6 +272,8 @@ mix-blend-mode: difference;
   text-align:center;
   font-size: 2em;
   font-weight: 100;
+  color: #fff;
+  mix-blend-mode:difference;
 }
 
 .content-index-text-bottom ul {
@@ -281,7 +284,7 @@ align-items:center;
 .content-index-text-bottom i {
   font-size:0.6em;
   padding-bottom: 10px;
-  color:#000;
+  color:#fff;
 }
 
 /* About page */
