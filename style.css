@@ -411,7 +411,8 @@ align-items:center;
 
 .content-design-one {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 40%;
+  grid-gap: 5%;
 }
 
 .content-design-text {
