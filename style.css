@@ -244,14 +244,13 @@ mix-blend-mode: difference;
   font-family: Playfair Display;
   letter-spacing:3px;
   text-align:center;
-  color: #fff;
-  mix-blend-mode: difference;
 }
 
 .letter-name {
+  color: #fff;
+  mix-blend-mode: difference;
   animation-name: animation-letter;
   animation-duration: 6s;
-  opacity:1;
 }
 
 @keyframes animation-letter {
