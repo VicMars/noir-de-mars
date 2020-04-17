@@ -480,4 +480,15 @@ align-items:center;
   height:65vh;
 }
 
+.content-design-one h1 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-right: 2%;
+  line-height:1.4;
+}
+
+
+
 
