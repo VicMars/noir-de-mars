@@ -373,9 +373,10 @@ align-items:center;
 
 .content-design-img {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   height:70vh;
   align-items:center;
+  overflow-y: auto;
 }
 
 .content-design-img img:hover {
@@ -419,7 +420,7 @@ align-items:center;
   font-weight: bolder;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-right: 2%;
   line-height:1.6;
 }
