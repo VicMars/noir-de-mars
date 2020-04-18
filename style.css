@@ -509,7 +509,7 @@ align-items:center;
 
 /* Responsive */
 
-@media (max-width: 769px) {
+@media (max-width: 569px) {
   #menu-left, #menu-right {
     display:none;
   }
@@ -528,21 +528,9 @@ align-items:center;
     padding:0;
   }
 
-  #menu-top-right-index a {
-    color: #fff;
-    mix-blend-mode: difference;
-    margin: 0;
-    padding: 0 0 0 10px;
-  }
-
-  #menu-top-right-index a:hover {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #fff;
-  }
-
 }
 
-#menu-top-right-index {
+.menu-top-right-index {
   display:none;
 }
 
