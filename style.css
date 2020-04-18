@@ -457,7 +457,6 @@ align-items:center;
   font-size: 1.6rem;
   margin-right: 2%;
   line-height:1.6;
-  text-transform: uppercase;
 }
 
 .content-design-text h5 {
@@ -470,18 +469,21 @@ align-items:center;
   letter-spacing: 6px;
 }
 
-
 .content-design-web {
   display: grid;
   height:70vh;
   align-items:center;
-  overflow-x: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-y: auto;
+}
+
+.content-design-web::-webkit-scrollbar {
+  display: none;
 }
 
 .content-design-web img {
   max-height: 70vh;
 }
-
 
 
 /* CONTACT */
