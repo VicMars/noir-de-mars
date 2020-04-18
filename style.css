@@ -53,6 +53,8 @@ p {
   grid-template-columns: 1fr;
   width: 100vw;
   height: 70vh;
+  padding: 0 10%;
+  overflow-x: auto;
 }
 
 /* Content */
@@ -101,26 +103,19 @@ p {
   mix-blend-mode:difference;
 }
 
-#menu-bottom {
-  position: sticky;
-  bottom:0;
-  left:0;
-}
-
 #menu-top-left {
   font-family: Playfair Display;
 }
 
-#menu-top-right ul li {
-  display: inline;
+#menu-top-right ul li, #menu-bottom-left ul li, #menu-bottom-right ul li{
+  display: inline-block;
   list-style: none;
+  padding: 0 0 0 15px;
   color: #fff;
   mix-blend-mode: difference;
-  margin: 0;
-  padding: 0 0 0 20px;
 }
 
-#menu-top-right a:hover {
+#menu-top-right a:hover, #menu-bottom-right a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
 }
@@ -130,43 +125,14 @@ p {
   line-height: 1;
 }
 
-#menu-left {
-  align-self:center;
-  justify-self:left;
-  margin-left:50px;
-  color: #fff;
-  mix-blend-mode:difference;
-}
-
-#menu-left p {
-  text-align: center;
-  white-space: nowrap;
-  transform: rotate(-90deg);
-}
-
-#menu-left a:hover {
-  border-bottom: 1px solid white;
-}
-
-#menu-right {
-  margin-right: 50px;
-}
-
-#menu-bottom-left ul,  #menu-bottom-left-home ul{
+#menu-bottom-left ul,  #menu-bottom-right ul{
   margin: 0;
   padding: 0;
 }
 
-#menu-bottom-left ul li, #menu-bottom-left-home ul li {
-  display: inline-block;
-  list-style: none;
-  padding-right: 15px;
-  color: #fff;
-  width: 125px;
-  mix-blend-mode: difference;
-}
 
-#menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
+
+/*#menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
   color: transparent;
 }
 
@@ -197,7 +163,7 @@ width: inherit;
 text-align:center;
 margin-bottom:-20px;
 mix-blend-mode: difference;
-}
+}*/
 
 
 #menu-bottom-right i {
@@ -378,12 +344,12 @@ align-items:center;
 
 /* Designer/Developer Page */
 
-.main-content-design {
+/*.main-content-design {
   display: grid;
   width:70vw;
   height: 70vh;
   overflow: auto;
-}
+}*/
 
 .main-content-design::-webkit-scrollbar {
   display: none;
@@ -391,8 +357,8 @@ align-items:center;
 
 .content-design-one {
   display: grid;
-  grid-template-columns: 55% 40%;
-  grid-gap: 5%;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10%;
 }
 
 .content-design-text {
@@ -407,7 +373,6 @@ align-items:center;
 
 .content-design-img {
   display: grid;
-  width: 60%;
   grid-template-columns: 50% 50%;
   height:70vh;
   align-items:center;
