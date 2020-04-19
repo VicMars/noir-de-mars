@@ -99,7 +99,7 @@ p {
   border-bottom: 1px solid white;
 }
 
-#menu-top-right i {
+#menu-top-right i, #menu-bottom-right {
   font-size: 0.6em;
   line-height: 1;
 }
@@ -136,7 +136,7 @@ p {
 
 .content-index-text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -181,8 +181,9 @@ p {
 }
 
 .content-index-text-bottom ul {
-display:flex;
-align-items:center;
+  text-align:center;
+  margin:0;
+  padding:0;
 }
 
 .content-index-text-bottom i {
