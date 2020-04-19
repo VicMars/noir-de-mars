@@ -130,14 +130,16 @@ p {
   padding: 0;
 }
 
-#menu-bottom-left li i {
+/*#menu-bottom-left li i {
   display:block;
   text-align:center;
   padding-bottom:5px;
-}
+}*/
 
 .social-icon {
   display: none;
+  text-align:center;
+  padding-bottom:5px;
 }
 
 
