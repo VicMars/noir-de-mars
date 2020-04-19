@@ -408,16 +408,19 @@ p {
 @media (max-width: 769px) {
 
   .main-container {
-    grid-template-columns: 1fr;
+    display:block;
+    width:100vw;
+    padding: 0 8%;
   }
 
   .content-design-one, .content-design-two {
-     grid-template-columns: 100%;
-     grid-gap: 0;
+     display:block;
+     margin: 10% 0;
    }
 
   .content-design-img {
     margin: 20% 0;
+    grid-template-columns: 100%;
   }
 
   p {
