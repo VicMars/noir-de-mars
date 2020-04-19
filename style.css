@@ -445,9 +445,26 @@ p {
     margin:5%;
   }
 
+  #menu-bottom-small {
+    display:block !important;
+    margin:0;
+    padding:0;
+  }
+
+  #menu-bottom-small ul {
+    margin:0;
+    padding:0;
+  }
+
+  #menu-bottom-small ul li{
+    display:inline-block;
+    list-style:none;
+    font-size: 1em;
+    padding:0 10px;
+  }
 }
 
-.menu-bottom-small {
+#menu-bottom-small {
   display:none;
 }
 
