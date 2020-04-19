@@ -99,7 +99,7 @@ p {
   border-bottom: 1px solid white;
 }
 
-#menu-top-right i, #menu-bottom-right {
+#menu-top-right i, #menu-bottom-right i{
   font-size: 0.6em;
   line-height: 1;
 }
