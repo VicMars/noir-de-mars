@@ -130,18 +130,20 @@ p {
   padding: 0;
 }
 
-/*#menu-bottom-left li i {
-  display:block;
+#social-icon {
+  display: block;
   text-align:center;
   padding-bottom:5px;
-}*/
-
-.social-icon {
-  display: none;
-  text-align:center;
-  padding-bottom:5px;
+  visibility: hidden;
 }
 
+#menu-bottom-left li i {
+  visibility: hidden;
+}
+
+#menu-bottom-left li:hover i {
+  visibility:visible;
+}
 
 /*#menu-bottom-left li a:hover, #menu-bottom-left-home li a:hover {
   color: transparent;
