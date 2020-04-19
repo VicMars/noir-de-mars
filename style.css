@@ -409,33 +409,28 @@ p {
   #menu-left, #menu-right {
     display:none;
   }
-  .main-content-index {
-    width: 100vw;
-  }
+
   .content-index-text h1 {
     font-size: 3em;
   }
   .content-index-text-bottom ul li{
-    font-size: 1.2em;
-  }
-
-  .content-index-text-bottom ul{
     margin:0;
     padding:0;
-  }
-
-  #menu-bottom-left-home ul li {
     display:block;
-    padding-bottom: 10px;
   }
 
-   .main-container {
+  #menu-bottom-left{
+    display:none;
+  }
+
+  .main-container {
     grid-template-columns: 1fr;
   }
 
   .main-content-design {
     display: block;
-    width: 100vw;}
+    width: 100vw;
+  }
 
   .content-design-one, .content-design-two {
      display: block;
@@ -452,7 +447,7 @@ p {
 
 }
 
-.menu-top-right-index {
+.menu-bottom-small {
   display:none;
 }
 
