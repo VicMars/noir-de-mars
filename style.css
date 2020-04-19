@@ -23,22 +23,24 @@ p {
 .main {
   width: 100vw;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: rgba(0,0,0,0.95);
 }
 
-.main-index {
+#home {
   width: 100vw;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
-  overflow: hidden;
   background-image: url("./images/Vicky_Andre-background.jpg");
-  opacity: 0.95;
+}
+
+#designer, #developer, #contact {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
 }
 
 @media (max-width: 968px) {
