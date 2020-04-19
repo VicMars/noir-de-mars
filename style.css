@@ -37,7 +37,7 @@ p {
   top: 0;
   left: 0;
   overflow: hidden;
-  background-image: url("./images/Vicky_Andre-background.svg");
+  background-image: url("./images/Vicky_Andre-background.jpg");
   opacity: 0.95;
 }
 
@@ -174,7 +174,7 @@ p {
   list-style: none;
   padding: 0 10px;
   text-align:center;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 100;
   color: #fff;
   mix-blend-mode:difference;
