@@ -22,6 +22,7 @@ a:hover {
 p {
   font-size: 1rem;
   line-height: 1.9;
+
 }
 
 .main {
@@ -166,6 +167,14 @@ p {
 
 #menu-bottom li:hover i {
   visibility:visible;
+}
+
+.menu-works ul li {
+  display: inline-block;
+  list-style:none;
+  margin:0;
+  padding: 0 0 0 15px;
+  text-align:center;
 }
 
 
