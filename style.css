@@ -257,7 +257,7 @@ p {
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
-  overflow-x: auto;
+  /*overflow-x: auto;*/
   scroll-behavior: smooth;
 }
 
