@@ -30,7 +30,9 @@ p {
   top: 0;
   left: 0;
   overflow: auto;
-  background-color: #000;
+  background-image: url("./images/Vicky_Andre-background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .main-content-index {
@@ -235,12 +237,12 @@ p {
 
 /* About page */
 
-.content-about {
+/*.content-about {
   display: grid;
   grid-template-columns:100%;
   align-content:center;
 }
-
+*/
 .content-about-img {
   grid-column-start: 1;
   grid-row-start: 1;
@@ -319,12 +321,12 @@ p {
 
   50% {
     opacity: 1;
-    transform: translate3d(100px, -80px, -135px);
+    transform: translate3d(20em, 15em, -5em);
   }
 
   to {
     opacity:0;
-    transform: translate3d(-50px, -200px, 0);
+    transform: translate3d(20em, 0, 0);
   }
 }
 
