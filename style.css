@@ -235,7 +235,19 @@ p {
 
 /* About page */
 
+.content-about {
+  display: grid;
+  grid-template-columns:100%;
+  align-content:center;
+}
+.content-about-img {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
 .content-about-text {
+  grid-column-start: 1;
+  grid-row-start: 1;
     word-wrap: break-word;
     align-self: center;
     animation-name: fadeIn;
@@ -245,16 +257,11 @@ p {
     scroll-behavior: smooth;
 }
 
-/*.content-about-text::-webkit-scrollbar {
-  display: none;
-}*/
-
-
 .content-about-text .about-text {
-  width:70vw;
+  /*width:70vw;
   height:70vh;
   display:grid;
-  align-content: center;
+  align-content: center;*/
   line-height:1.9;
   padding: 0 10%;
 }
@@ -389,7 +396,6 @@ p {
   grid-row-start: 1;
 }
 
-
 .content-design-img img{
   animation-name: imgScale;
   animation-duration:10s;
@@ -433,10 +439,6 @@ p {
   align-items:center;
   grid-template-columns: 1fr 1fr 1fr;
   overflow-y: auto;
-}
-
-.content-design-web::-webkit-scrollbar {
-  display: none;
 }
 
 .content-design-web img {
