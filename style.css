@@ -58,11 +58,12 @@ p {
   display: grid;
   align-content:center;
   width: 95vw;
-  height: 95vh;
+  height: 90vh;
   background-color: #000;
   margin: 2.5%;
   padding:5%;
 }
+
 
 @media (max-width: 968px) {
   .main-index {
@@ -464,11 +465,15 @@ p {
   text-align:center;
 }
 
+.contact-links ul {
+  padding:25px;
+}
+
 .contact-links ul li{
   display:inline-block;
   list-style:none;
   margin:0;
-  padding:0 0 0 15px;
+  padding:0 0 0 25px;
 }
 
 
