@@ -238,17 +238,6 @@ p {
 
 /* About page */
 
-/*.content-about {
-  display: grid;
-  grid-template-columns:100%;
-  align-content:center;
-}
-*/
-.content-about-img {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
 .content-about-text {
   display: grid;
   grid-template-columns: 100% 100%;
@@ -257,15 +246,10 @@ p {
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
-  /*overflow-x: auto;*/
   scroll-behavior: smooth;
 }
 
 .content-about-text .about-text {
-  /*width:70vw;
-  height:70vh;
-  display:grid;
-  align-content: center;*/
   line-height:1.9;
   padding: 0 10%;
 }
