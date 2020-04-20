@@ -57,10 +57,11 @@ p {
 #designer, #developer, #about, #contact {
   display: grid;
   align-content:center;
-  width: 90vw;
-  height: 90vh;
+  width: 95vw;
+  height: 95vh;
   background-color: #000;
-  margin: 5%;
+  margin: 2.5%;
+  padding:5%;
 }
 
 @media (max-width: 968px) {
@@ -423,8 +424,12 @@ p {
   letter-spacing: 2px;
   text-align: center;
   font-size: 1.6rem;
-  margin-right: 2%;
+  margin: 0 2.5%;
   line-height:1.6;
+}
+
+.content-design-text p {
+  margin: 0 2.5%;
 }
 
 .content-design-text h5 {
