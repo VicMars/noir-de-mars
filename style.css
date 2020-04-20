@@ -103,6 +103,7 @@ p {
   padding-left: 50px;
   position:fixed;
   top:0;
+  z-index: 2;
 }
 
 #menu-top-center {
@@ -242,7 +243,7 @@ p {
   display: grid;
   grid-template-columns: 100% 100%;
   word-wrap: break-word;
-  align-self: center;
+  align-content: center;
   animation-name: fadeIn;
   animation-duration: 6s;
   transition-timing-function: linear;
@@ -290,7 +291,7 @@ p {
 }
 
 .content-about-img img{
-  height: 70vh;
+  height: 55vh;
   margin: 0 auto;
   animation-name:fadeInImg;
   animation-duration: 6s;
@@ -305,12 +306,12 @@ p {
 
   50% {
     opacity: 1;
-    transform: translate3d(20em, 15em, -5em);
+    transform: translate3d(10em, 5em, -5em);
   }
 
   to {
     opacity:0;
-    transform: translate3d(20em, 0, 0);
+    transform: translate3d(10em, -5em, 0);
   }
 }
 
