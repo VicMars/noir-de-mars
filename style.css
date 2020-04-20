@@ -88,6 +88,8 @@ p {
 #menu-top {
   position:fixed;
   top:0;
+  color: #fff;
+  mix-blend-mode:difference;
 }
 
 #menu-top-left {
@@ -123,9 +125,8 @@ p {
   color: #fff;
   mix-blend-mode:difference;
   text-align:center;
-  border: 1px solid blue;
   position: sticky;
-  bottom:0;
+  bottom:10px;
 }
 
 #menu-top-center i{
@@ -317,7 +318,7 @@ p {
 
 .content-design-one {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 }
 
 .content-design-text {
@@ -337,7 +338,7 @@ p {
   height:100vh;
   align-items:center;
   justify-items: center;
-  grid-gap:20px;
+  grid-gap:50px;
   overflow-x: auto;
 }
 
