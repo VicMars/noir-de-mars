@@ -327,8 +327,11 @@ p {
 }
 
 .content-design-text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   align-self:center;
   padding:5%;
+  overflow: auto;
 }
 
 .content-design-three {
