@@ -328,9 +328,8 @@ p {
 
 .content-design-text {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100% 100%;
   align-self:center;
-  padding:5%;
   overflow: auto;
 }
 
