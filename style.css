@@ -84,6 +84,7 @@ p {
 /* MENUS */
 
 #menu-top, #menu-bottom {
+  width:100vw;
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -96,7 +97,7 @@ p {
   font-family: Playfair Display;
 }
 
-#menu-top-right ul li, #menu-bottom-left ul li, #menu-bottom-right ul li{
+#menu-top-center ul li,  #menu-bottom ul li{
   display: inline-block;
   list-style: none;
   padding: 0 0 0 15px;
@@ -104,17 +105,17 @@ p {
   mix-blend-mode: difference;
 }
 
-#menu-top-right a:hover, #menu-bottom-right a:hover {
+#menu-top-center a:hover, #menu-bottom a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
 }
 
-#menu-top-right i, #menu-bottom-right i{
+#menu-top-center i, #menu-bottom i{
   font-size: 0.6em;
   line-height: 1;
 }
 
-#menu-bottom-left ul,  #menu-bottom-right ul{
+#menu-bottom ul{
   margin: 0;
   padding: 0;
 }
@@ -126,11 +127,11 @@ p {
   visibility: hidden;
 }
 
-#menu-bottom-left li i {
+#menu-bottom li i {
   visibility: hidden;
 }
 
-#menu-bottom-left li:hover i {
+#menu-bottomli:hover i {
   visibility:visible;
 }
 
