@@ -252,14 +252,13 @@ p {
 .content-about-text {
   display: grid;
   grid-template-columns: 100% 100%;
-  overflow: auto;
-    word-wrap: break-word;
-    align-self: center;
-    animation-name: fadeIn;
-    animation-duration: 6s;
-    transition-timing-function: linear;
-    overflow-y: auto;
-    scroll-behavior: smooth;
+  word-wrap: break-word;
+  align-self: center;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+  transition-timing-function: linear;
+  overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
 .content-about-text .about-text {
