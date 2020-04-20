@@ -475,16 +475,17 @@ p {
   font-size: 1.3rem;
 }
 
-.contact-links ul {
+.contact-links {
+  text-align:center;
+}
+
+.contact-links ul li{
   display:inline-block;
   list-style:none;
   margin:0;
-  padding:0;
+  padding:0 0 0 15px;
 }
 
-.contact-links ul li {
-  padding: 0 0 0 15px;
-}
 
 /* Responsive */
 
