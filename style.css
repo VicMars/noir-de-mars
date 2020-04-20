@@ -327,27 +327,27 @@ p {
 .content-design-img img:nth-child(1), .content-design-img img:nth-child(3) {
   max-height: 60vh;
   z-index:2;
- /* grid-column-start: 1;
-  grid-row-start: 1;*/
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .content-design-img img:nth-child(2), .content-design-img img:nth-child(4) {
   max-height: 70vh;
-  /*grid-column-start: 1;
-  grid-row-start: 1;*/
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 
 .content-design-img img{
-  animation-name: imgMove;
+  animation-name: imgScale;
   animation-duration:10s;
   animation-delay:4s;
   animation-iteration-count: 1;
 }
 
-@-webkit-keyframes imgMove {
+@-webkit-keyframes imgScale {
   to {
-   transform: translate3d(0px, -1000px, 0px);
+   transform: scale(1.1);
   }
 }
 
