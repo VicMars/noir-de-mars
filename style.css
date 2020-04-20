@@ -321,12 +321,17 @@ p {
   grid-template-columns: 60% 40%;
 }
 
+.content-design-two {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
 .content-design-text {
   align-self:center;
   padding:5%;
 }
 
-.content-design-two {
+.content-design-three {
   display: grid;
   align-content:center;
   height: 100vh;
