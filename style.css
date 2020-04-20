@@ -53,12 +53,12 @@ p {
 }
 
 #designer, #developer, #about, #contact {
-  display: block;
+  display: grid;
+  align-content:center;
   width: 90vw;
-  height: 100vh;
+  height: 90vh;
   background-color: #000;
   margin: 5%;
-  position: relative;
 }
 
 @media (max-width: 968px) {
@@ -240,14 +240,16 @@ p {
   grid-template-columns:100%;
   align-content:center;
 }
+
 .content-about-img {
   grid-column-start: 1;
   grid-row-start: 1;
 }
 
 .content-about-text {
-  grid-column-start: 1;
-  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 100% 100%;
+  overflow: auto;
     word-wrap: break-word;
     align-self: center;
     animation-name: fadeIn;
