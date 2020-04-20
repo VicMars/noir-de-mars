@@ -52,15 +52,13 @@ p {
   background-repeat: no-repeat;
 }
 
-#designer, #developer, #contact {
+#designer, #developer, #about, #contact {
   display: block;
   width: 90vw;
   height: 100vh;
   background-color: #000;
   margin: 5%;
   position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.95);
 }
 
 @media (max-width: 968px) {
@@ -115,10 +113,16 @@ p {
 #menu-top-center ul li,  #menu-bottom ul li{
   display: inline-block;
   list-style: none;
-  padding: 0 0 0 15px;
   color: #fff;
   mix-blend-mode: difference;
+}
 
+#menu-top-center ul li {
+  padding: 0 0 0 3%;
+}
+
+#menu-bottom ul li{
+  padding: 0 0 0 15px;
 }
 
 #menu-top-center a:hover, #menu-bottom a:hover {
