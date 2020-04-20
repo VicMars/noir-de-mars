@@ -3,6 +3,10 @@ body {
   color: white;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -237,9 +241,9 @@ p {
     scroll-behavior: smooth;
 }
 
-.content-about-text::-webkit-scrollbar {
+/*.content-about-text::-webkit-scrollbar {
   display: none;
-}
+}*/
 
 
 .content-about-text .about-text {
