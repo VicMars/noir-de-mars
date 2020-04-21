@@ -465,9 +465,9 @@ p {
 
 .content-contact {
   display:grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 40% 40%;
   align-items:center;
-  overflow: hidden;
+  justify-content:center;
 }
 
 .content-contact h2 {
