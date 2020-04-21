@@ -91,11 +91,6 @@ p {
   overflow-x: auto;
 }
 
-.content-about-img, .content-about-text, .content-text, .content-img {
-  grid-area: main;
-  height: 70vh;
-}
-
 /* MENUS */
 
 #menu-top, #menu-bottom {
@@ -141,9 +136,14 @@ p {
   padding: 0 0 0 15px;
 }
 
-#menu-top-center a:hover, #menu-bottom a:hover {
+#menu-top-center a:hover {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
+}
+
+#menu-bottom a:hover {
+  padding-bottom: 10px;
+  border-bottom:0;
 }
 
 #menu-bottom {
@@ -261,6 +261,11 @@ p {
 }
 
 /* About page */
+
+/*.content-about-img, .content-about-text, .content-text, .content-img {
+  grid-area: main;
+  height: 70vh;
+}*/
 
 .about-text {
   line-height:1.9;
