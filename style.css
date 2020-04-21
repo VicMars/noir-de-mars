@@ -568,6 +568,12 @@ p {
     margin-top: 25%;
   }
 
+  .main-content-works {
+  word-break: break-word;
+  text-align:center;
+  padding: 0 5%;
+}
+
 }
 
 
