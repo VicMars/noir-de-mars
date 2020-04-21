@@ -179,8 +179,8 @@ p {
 }
 
 .menu-works {
+  text-align:right;
   margin-bottom: 5%;
-  width:85vw;
 }
 
 .menu-works ul li {
