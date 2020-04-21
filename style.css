@@ -450,10 +450,9 @@ p {
 
 .content-design-web {
   display: grid;
-  height:70vh;
-  align-items:center;
   grid-template-columns: 1fr 1fr 1fr;
-  overflow-y: auto;
+  align-items:center;
+  grid-gap:50px;
 }
 
 .content-design-web img {
