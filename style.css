@@ -58,7 +58,7 @@ p {
   background-repeat: no-repeat;
 }
 
-#about, #contact {
+#about, #contact, #works{
   display: grid;
   align-content:center;
   width: 95vw;
