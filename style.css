@@ -262,17 +262,6 @@ p {
 
 /* About page */
 
-.content-about-text {
-  display: grid;
-  grid-template-columns: 100% 100%;
-  word-wrap: break-word;
-  align-content: center;
-  animation-name: fadeIn;
-  animation-duration: 6s;
-  transition-timing-function: linear;
-  scroll-behavior: smooth;
-}
-
 .about-text {
   line-height:1.9;
   padding: 0 15%;
@@ -313,7 +302,7 @@ p {
   border-bottom: 0;
 }
 
-.content-about-img img{
+/*.content-about-img img{
   height: 55vh;
   margin: 0 auto;
   animation-name:fadeInImg;
@@ -336,19 +325,11 @@ p {
     opacity:0;
     transform: translate3d(10em, -5em, 0);
   }
-}
+}*/
+
 
 /* Designer/Developer Page */
 
-/*.main-content-design::-webkit-scrollbar {
-  display: none;
-}
-
-.content-design-one {
-  display: grid;
-  grid-template-columns: 60% 40%;
-}
-*/
 .content-design-two {
   display: grid;
   grid-template-columns: 40% 60%;
