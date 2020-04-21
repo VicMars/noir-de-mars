@@ -534,6 +534,8 @@ p {
   .content-design-text {
     width:100vw;
     height: 100%;
+    margin-top: 20%;
+    align-items: start;
   }
 
  .content-design-img, .content-design-web {
@@ -557,15 +559,11 @@ p {
     padding: 15px;
   }
 
-  .about-text {
-    margin-top: 25%;
-  }
-
   .main-content-works {
   word-break: break-word;
   text-align:center;
   padding: 0 5%;
-}
+  }
 
 #social-icon {
   display:block;
