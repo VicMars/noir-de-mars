@@ -48,13 +48,13 @@ p {
   margin-top:10vh;
 }
 
-#home {
+#home,  #works {
   width: 100vw;
   top: 0;
   left: 0;
 }
 
-#about, #contact, #works{
+#about, #contact{
   display: grid;
   align-content:center;
   width: 95vw;
