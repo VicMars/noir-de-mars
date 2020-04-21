@@ -22,7 +22,8 @@ a:hover {
 p {
   font-size: 1rem;
   line-height: 1.9;
-
+  color:#fff;
+  mix-blend-mode: difference;
 }
 
 .main {
@@ -272,9 +273,9 @@ p {
   scroll-behavior: smooth;
 }
 
-.content-about-text .about-text {
+.about-text {
   line-height:1.9;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .about-text h1 {
