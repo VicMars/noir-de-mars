@@ -356,7 +356,7 @@ p {
 .content-design-text {
   display: grid;
   grid-template-columns: 100% 100%;
-  align-self:center;
+  align-items:center;
   overflow: auto;
 }
 
