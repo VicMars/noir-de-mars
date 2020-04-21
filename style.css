@@ -314,7 +314,7 @@ p {
   border-bottom: 0;
 }
 
-/*.content-about-img img{
+.content-about-img img{
   height: 55vh;
   margin: 0 auto;
   animation-name:fadeInImg;
@@ -337,7 +337,7 @@ p {
     opacity:0;
     transform: translate3d(10em, -5em, 0);
   }
-}*/
+}
 
 
 /* Designer/Developer Page */
