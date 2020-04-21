@@ -358,6 +358,7 @@ p {
   grid-template-columns: 100% 100%;
   align-items:center;
   overflow: auto;
+  height: 25vw;
 }
 
 .content-design-three {
