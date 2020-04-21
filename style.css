@@ -50,12 +50,8 @@ p {
 
 #home {
   width: 100vw;
-  height: 100vh;
   top: 0;
   left: 0;
-  background-image: url("./images/Vicky_Andre-background.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 #about, #contact, #works{
