@@ -387,14 +387,13 @@ p {
   height: 100vh;
 }
 
-.content-design-img {
+.content-design-img, .content-design-web  {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   height:100vh;
   align-items:center;
   justify-items: center;
   grid-gap:50px;
-  overflow-x: auto;
 }
 
 .content-design-img img:hover {
@@ -469,12 +468,6 @@ p {
   letter-spacing: 6px;
 }
 
-.content-design-web {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items:center;
-  grid-gap:50px;
-}
 
 .content-design-web img {
   max-height: 70vh;
