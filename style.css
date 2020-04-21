@@ -275,6 +275,7 @@ p {
   height: 60vh;
   align-self: center;
 }
+
 /* About page */
 
 .content-design-text.about, .content-about-img {
@@ -516,11 +517,7 @@ p {
   }
 
   .menu-works {
-    margin-top: 5%;
-  }
-
-  #developer .menu-works {
-  display:none;
+    margin: 15% 0 10% 0;
   }
 
   #about, #contact, #designer, #developer {
