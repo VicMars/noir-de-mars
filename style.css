@@ -264,15 +264,9 @@ p {
 
 /* About page */
 
-/*.content-about-img, .content-about-text, .content-text, .content-img {
-  grid-area: main;
-  height: 70vh;
-}*/
-
-.content-design-text .about, .content-about-img {
+.content-design-text.about, .content-about-img {
   grid-area: main;
 }
-
 
 .about-text {
   line-height:1.9;
@@ -330,7 +324,7 @@ p {
 
   50% {
     opacity: 1;
-    transform: translate3d(10em, 5em, -5em);
+    transform: translate3d(13em, 5em, -5em);
   }
 
   to {
@@ -372,12 +366,6 @@ p {
   to {
    transform: scale(2, 0);
   }
-}
-
-.content-design-three {
-  display: grid;
-  align-content:center;
-  height: 100vh;
 }
 
 .content-design-img, .content-design-web  {
@@ -460,7 +448,6 @@ p {
 .content-design-text h5:hover {
   letter-spacing: 6px;
 }
-
 
 .content-design-web img {
   max-height: 70vh;
