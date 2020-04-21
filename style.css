@@ -170,10 +170,6 @@ p {
   visibility: hidden;
 }
 
-#menu-bottom li i {
-  visibility: hidden;
-}
-
 #menu-bottom li:hover i {
   visibility:visible;
 }
@@ -548,7 +544,7 @@ p {
   }
 
   .content-contact h2 {
-    padding:10% 0;
+    padding:10%;
     font-size: 2.3rem;
   }
 
@@ -569,6 +565,21 @@ p {
   word-break: break-word;
   text-align:center;
   padding: 0 5%;
+}
+
+#social-icon {
+  display:block;
+  margin:0;
+  padding:0;
+  visibility: visible;
+}
+
+#menu-bottom li {
+  visibility:hidden;
+}
+
+#menu-bottom ul li {
+  padding: 0;
 }
 
 }
