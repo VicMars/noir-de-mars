@@ -266,6 +266,22 @@ p {
   mix-blend-mode:difference;
 }
 
+
+.main-content-works {
+  width:100vw;
+  height: 80vh;
+  position: relative;
+  top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000;
+}
+
+.border-case {
+  border-left: 1px solid white;
+  height: 60vh;
+  align-self: center;
+}
 /* About page */
 
 .content-design-text.about, .content-about-img {
