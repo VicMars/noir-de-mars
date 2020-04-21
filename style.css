@@ -101,13 +101,18 @@ p {
   width:100vw;
   z-index:20;
   height: 10vh;
+  color: #fff;
+  mix-blend-mode:difference;
 }
 
 #menu-top {
   position:fixed;
   top:0;
-  color: #fff;
-  mix-blend-mode:difference;
+}
+
+#menu-bottom {
+  position:fixed;
+  bottom:0;
 }
 
 #menu-top-left {
@@ -273,7 +278,7 @@ p {
   position: relative;
   top: 10vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1px 1fr;
   background-color: #000;
 }
 
