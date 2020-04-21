@@ -113,6 +113,7 @@ p {
 #menu-bottom {
   position:fixed;
   bottom:0;
+  text-align:center;
 }
 
 #menu-top-left {
@@ -154,14 +155,6 @@ p {
 #menu-bottom a:hover {
   padding-bottom: 10px;
   border-bottom:0;
-}
-
-#menu-bottom {
-  color: #fff;
-  mix-blend-mode:difference;
-  text-align:center;
-  bottom:10px;
-  height:10vh;
 }
 
 #menu-top-center i{
