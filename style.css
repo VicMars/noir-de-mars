@@ -64,6 +64,8 @@ p {
   background-color: #000;
   margin: 2.5%;
   padding:5%;
+  grid-template-columns: 100%;
+  grid-template-areas: "main";
 }
 
 
@@ -266,6 +268,11 @@ p {
   grid-area: main;
   height: 70vh;
 }*/
+
+.content-design-text .about, .content-about-img {
+  grid-area: main;
+}
+
 
 .about-text {
   line-height:1.9;
