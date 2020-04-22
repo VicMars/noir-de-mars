@@ -510,7 +510,7 @@ p {
   position: absolute;
   opacity: 0;
   overflow: hidden;
-  color: yellow;
+  color: #fff;
   -webkit-animation: rotateWord 18s linear infinite 0s;
   -ms-animation: rotateWord 18s linear infinite 0s;
   animation: rotateWord 18s linear infinite 0s;
@@ -520,11 +520,11 @@ p {
   -ms-animation-delay: 3s;
   animation-delay: 3s;
 }
-.rw-words-1 span:nth-child(3) {
+/*.rw-words-1 span:nth-child(3) {
   -webkit-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
-}
+}*/
 
 @keyframes rotateWord {
   0% { opacity: 0; }
