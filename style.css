@@ -643,6 +643,11 @@ p {
 
 }
 
+@media (max-width: 569px) {
 
+.content-index-text-bottom {
+      display:none;
+  }
 
+}
 
