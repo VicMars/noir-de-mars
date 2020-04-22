@@ -85,6 +85,16 @@ p {
   overflow: hidden;
 }
 
+#design_visuals {
+  display: grid;
+  align-content:center;
+  width: 95vw;
+  background-color: #000;
+  margin: 2.5%;
+  padding:0 5%;
+  overflow: hidden;
+}
+
 @media (max-width: 968px) {
   .main-index {
   background-position-y: 4em;
