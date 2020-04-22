@@ -48,13 +48,13 @@ p {
   margin-top:10vh;
 }
 
-#home,  #works {
+#home {
   width: 100vw;
   top: 0;
   left: 0;
 }
 
-#about, #contact{
+#about, #contact {
   display: grid;
   align-content:center;
   width: 95vw;
@@ -66,6 +66,16 @@ p {
   grid-template-areas: "main";
 }
 
+#works{
+  display: grid;
+  align-content:center;
+  width: 95vw;
+  height: 85vh;
+  background-color: #000;
+  margin: 2.5%;
+  padding:5%;
+  grid-template-columns: 100%;
+}
 
 #designer, #developer {
   display: grid;
@@ -258,9 +268,7 @@ p {
 
 
 .main-content-works {
-  height: 80vh;
   position: relative;
-  top: 10vh;
   display: grid;
   grid-template-columns: 1fr 1px 1fr;
   background-color: #000;
@@ -370,6 +378,7 @@ p {
 
 @-webkit-keyframes leftRight {
   to {
+   opacity:0;
    margin-right: 15px;
   }
 }
