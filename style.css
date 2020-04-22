@@ -647,6 +647,10 @@ p {
   display:block;
   }
 
+  .word-breaking {
+   display: block;
+  }
+
 }
 
 @media (max-width: 569px) {
