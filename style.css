@@ -647,10 +647,6 @@ p {
   display:block;
   }
 
-  .word-breaking {
-   display: block;
-  }
-
 }
 
 @media (max-width: 569px) {
@@ -661,7 +657,9 @@ p {
 
 }
 
+@media (min-width: 569px) {
 .word-breaking {
   display: none;
+}
 }
 
