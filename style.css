@@ -538,6 +538,14 @@ p {
     align-items: start;
   }
 
+  .about-text a {
+  padding-bottom:5px;
+  }
+
+  .about-text, .design-text {
+    padding: 0 10%;
+  }
+
   .content-design-text.about {
     grid-template-columns: 1fr;
   }
@@ -564,9 +572,12 @@ p {
   }
 
   .main-content-works {
-  word-break: break-word;
   text-align:center;
   padding: 15% 10%;
+  }
+
+  .main-content-works a{
+  word-break: break-word;
   }
 
 #social-icon {
