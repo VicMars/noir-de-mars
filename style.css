@@ -84,6 +84,7 @@ p {
   background-color: #000;
   margin: 2.5%;
   padding:5%;
+  overflow: hidden;
 }
 
 @media (max-width: 968px) {
@@ -276,7 +277,7 @@ p {
 
 .border-case {
   border-left: 1px solid white;
-  height: 60vh;
+  height: 40vh;
   align-self: center;
 }
 
@@ -573,16 +574,23 @@ p {
   .content-design-text {
     width:100vw;
     height: 100%;
-    margin-top: 20%;
     align-items: start;
   }
 
-  .about-text a {
-  padding-bottom:5px;
+  .about-text .scroll{
+   display:none;
   }
 
-  .about-text, .design-text {
+  .about-text a {
+   padding-bottom:5px;
+  }
+
+  .about-text {
     padding: 0 10%;
+  }
+
+  .design-text {
+    padding: 0 10% 10% 10%;
   }
 
   .content-design-text.about {
@@ -611,12 +619,11 @@ p {
   }
 
   .main-content-works {
-  text-align:center;
-  padding: 15% 10%;
+   text-align:center;
   }
 
   .main-content-works a{
-  word-break: break-word;
+   word-break: break-word;
   }
 
 #social-icon {
