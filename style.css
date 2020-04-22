@@ -362,15 +362,15 @@ p {
   float:right;
 }
 
-.scroll img {
+.scroll i {
+  font-size:1.2em;
   color: #fff;
   animation: leftRight 2s ease both infinite;
 }
 
-
 @-webkit-keyframes leftRight {
   to {
-   transform: scale(2, 0);
+   margin-right: 15px;
   }
 }
 
