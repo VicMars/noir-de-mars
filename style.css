@@ -175,7 +175,7 @@ p {
 }
 
 .menu-works {
-  text-align:right;
+  text-align:left;
   margin-bottom: 5%;
 }
 
@@ -359,10 +359,11 @@ p {
 }
 
 .scroll {
-  width:40px;
-  border: 1px solid #fff;
-  text-align:center;
-  margin: 30px auto;
+  float:right;
+}
+
+.scroll img {
+  color: #fff;
   animation: leftRight 2s ease both infinite;
 }
 
