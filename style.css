@@ -538,6 +538,10 @@ p {
     align-items: start;
   }
 
+  .content-design-text.about {
+    grid-template-columns: 1fr;
+  }
+
  .content-design-img, .content-design-web {
     display: grid;
     grid-template-columns: 1fr;
