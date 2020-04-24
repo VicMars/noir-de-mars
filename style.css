@@ -441,13 +441,13 @@ p {
 .content-design-img img:nth-child(5) {
   max-height: 60vh;
   z-index:2;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-row-start: 1;
 }
 
 .content-design-img img:nth-child(6) {
   max-height: 70vh;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-row-start: 1;
 }
 
