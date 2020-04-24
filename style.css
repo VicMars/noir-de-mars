@@ -46,6 +46,7 @@ p {
   width: 100%;
   height: 80vh;
   margin-top:10vh;
+  overflow: hidden;
 }
 
 #home {
@@ -228,11 +229,12 @@ p {
   font-family: Playfair Display;
   letter-spacing:3px;
   text-align:center;
+  color:#fff;
+  mix-blend-mode: difference;
 }
 
 .letter-name {
   color: #fff;
-  mix-blend-mode: difference;
   animation-name: animation-letter;
   animation-duration: 6s;
 }
@@ -377,18 +379,21 @@ p {
 
 .scroll {
   float:right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 120px;
 }
 
-.scroll i {
-  font-size:1.2em;
-  color: #fff;
+.scroll hr {
+  width:50px;
+  border: 0.5px solid #fff;
   animation: leftRight 2s ease both infinite;
 }
 
 @-webkit-keyframes leftRight {
   to {
    opacity:0;
-   margin-right: 15px;
+   transform: translateX(50px)
   }
 }
 
@@ -428,6 +433,19 @@ p {
 }
 
 .content-design-img img:nth-child(4) {
+  max-height: 70vh;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.content-design-img img:nth-child(5) {
+  max-height: 60vh;
+  z-index:2;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.content-design-img img:nth-child(6) {
   max-height: 70vh;
   grid-column-start: 2;
   grid-row-start: 1;
