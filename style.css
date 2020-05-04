@@ -236,9 +236,7 @@ p {
 .letter-name {
   color: #fff;
   animation-name: animation-letter;
-  animation-duration: 1.5s;
-  transition-timing-function: ease;
-  transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-duration: 1.4s;
 }
 
 @keyframes animation-letter {
