@@ -239,7 +239,6 @@ p {
   animation-duration: 2s;
   transition-timing-function: ease;
   transition-timing-function: cubic-bezier(0, 0, 1, 1);
-  animation-iteration-count:infinite;
 }
 
 @keyframes animation-letter {
