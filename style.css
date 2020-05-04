@@ -236,20 +236,22 @@ p {
 .letter-name {
   color: #fff;
   animation-name: animation-letter;
-  animation-duration: 6s;
+  animation-duration: 2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-iteration-count:infinite;
 }
 
 @keyframes animation-letter {
   from {
     width: 0%;
-    margin-right:-100px;
-    mix-blend-mode: unset;
+    letter-spacing:-10px;
+
   }
 
   to {
     width: 100%;
-    margin-right:0;
-    mix-blend-mode: unset;
+    letter-spacing:2px;
   }
 }
 
